@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Blackmailer"><![CDATA[<b>Ability:</b> Choose one person at night to blackmail.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>Blackmailed targets cannot talk during the day.
+<br><b>-</b>During Judgement, blackmailed target\'s message will be changed to \"I am blackmailed.\"
+<br><b>-</b>If there are no kill capable Mafia roles left you will become Mafioso
+<br><b>-</b>You can talk with the other Mafia at night.
+<br>
+<br><b>Goal:</b> Kill anyone that will not submit to the Mafia.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Your target is a member of the Mafia.
+<br><u><i>Investigator</i></u> - Your target has secret information. They must be a Spy or Blackmailer.
+<br><u><i>Consigliere</i></u> - N/A
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Must kill Serial Killers
+<br>Must kill Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]></string>
+
+    <string name="Consigliere"><![CDATA[<b>Ability:</b> Investigate one person for its role.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>If there is no kill capable Mafia roles left, you will become a Mafioso.
+<br><b>-</b>You can talk with other Mafia at night.
+<br>
+<br><b>Goal:</b> Kill anyone who will not submit to the Mafia.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Your target is a member of the Mafia.
+<br><u><i>Investigator</i></u> - Your target gathers information. They must be an Investigator or Consigliere.
+<br><u><i>Consigliere</i></u> - N/A
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Must kill Serial Killers
+<br>Must kill Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]></string>
+
+<string name="Consort"><![CDATA[<b>Abilities:</b> Distract someone each night.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>Distraction blocks your target from using their role\'s night ability.
+<br><b>-</b>If there are no kill capable Mafia roles left you will become a Mafioso.
+<br><b>-</b>You can talk with the other Mafia at night.
+<br><b>-</b>You are immune to roleblock.
+<br>
+<br><b>Goal:</b> Kill anyone that will not submit to the Mafia.
+<br>
+<br><b>Note:</b> If you roleblock the Serial Killer, they will attack you instead.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Your target is a member of the Mafia.
+<br><u><i>Investigator</i></u> - Your target is a manipulative beauty. They are either an Escort or a Consort
+<br><u><i>Consigliere</i></u> - N/A
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Must kill Serial Killers
+<br>Must kill Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]></string>
+</resources>

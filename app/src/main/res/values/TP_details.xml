@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Bodyguard"><![CDATA[<b>Attributes:</b> 
+<br><b>-</b>If your target is attacked both you and your attacker will die instead. (You can be healed by a Doctor)
+<br><b>-</b>Your counterattack ignores night immunity.
+<br><b>-</b>You have 1 bullet proof vest like survivor, and can not die with it on.
+<br>
+<br><b>Goal:</b> Lynch every criminal and evildoer.
+<br>
+<br><b>Special Attributes:</b> Ignores Night Immunity.
+<br>
+<br><b>Note:</b> Killable roles include Godfather, Mafioso, Serial Killer, Arsonist and Vigilante.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target is a protector. They must be a Bodyguard, Jailor, or a Lookout.
+<br><u><i>Consigliere</i></u> - Your target is a trained protector, they must be a BodyGuard.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]></string>
+
+    <string name="Doctor"><![CDATA[<b>Abilities:</b> Heal one person each night, preventing them from dying.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>You may heal yourself once.
+<br><b>-</b>You will know if your target is attacked.
+<br>
+<br><b>Goal:</b> Lynch every criminal and evildoer.
+<br>
+<br><b>Note(s):</b>
+<br><b>-</b>You can heal kills made by a Veteran.
+<br><b>-</b>You can heal Escorts/Consorts/Jailors stabbed by the Serial Killer.
+<br><b>-</b>You can heal kills made by a Bodyguard.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target is good with knives. They are either a Doctor or a Serial Killer
+<br><u><i>Consigliere</i></u> - Your target is a professional surgeon, they must be a Doctor.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]></string>
+</resources>

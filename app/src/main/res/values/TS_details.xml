@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Mayor"><![CDATA[<b>Ability:</b> You may reveal yourself as the Mayor of the Town.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>Once revealed, your vote weight is increased to 3.
+<br><b>-</b>Once revealed, you cannot be healed by a Doctor.
+<br>
+<br><b>-</b><b>Goal:</b> Lynch every criminal and evildoer.
+<br>
+<br><b>Special Attributes:</b> Unique Role
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target is a leader among men; they must be the Mayor or the Godfather
+<br><u><i>Consigliere</i></u> - Your target is the leader of the town. They must be the Mayor.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]></string>
+
+    <string name="Escort"><![CDATA[<b>Abilities:</b> Distract someone each night.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>Distraction blocks your target from using their roles night ability.
+<br>
+<br><b>Goal:</b> Lynch every criminal and evildoer.
+<br>
+<br><b>Special Attributes:</b> Roleblock Immunity, Roleblocking
+<br>
+<br><b>Note:</b> If you target a Serial Killer they will attack you instead.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target is a manipulative beauty. They are either an Escort or a Consort
+<br><u><i>Consigliere</i></u> - Your target is a beautiful woman working for the town. She must be an Escort.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]></string>
+
+    <string name="Medium"><![CDATA[<b>Abilities:</b>
+<br><b>-</b>Speak with the dead at night.
+<br><b>-</b>If dead, choose one living player to talk to by clicking the Sun Icon and choosing a person during the day.
+<br><b>-</b>Your identity is not shown to anyone.
+<br><b>-</b>When talking to the dead, you do not hear other mediums.
+<br><b>-</b>When talking to the living, dead can not hear you.
+<br><b>-</b>When in jail, dead can not hear you.
+<br><b>-</b>When talking to the mafia, you can not hear them.
+<br>
+<br><b>Attributes:</b> You will speak to your target anonymously.
+<br>
+<br><b>Goal:</b> Lynch every criminal and evildoer.
+<br>
+<br><b>Note:</b> If you are jailed, you may converse with the Jailor whilst looking at the dead chat however you are confined to the Jailor, the dead will not hear you, it is the Jailor you will be speaking with.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target works with dead bodies. They must be a Medium or Janitor.
+<br><u><i>Consigliere</i></u> - Your target speaks with the dead. They must be a Medium.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]></string>
+
+    <string name="Retributionist"><![CDATA[<b>Abilities:</b> You may revive a dead Town member.
+<br>
+<br><b>Attributes:</b> You may only resurrect one person.
+<br>
+<br><b>Goal:</b> Lynch every criminal and evildoer.
+<br>
+<br><b>Special Attributes:</b> Unique Role
+<br>
+<br><b>Note:</b>
+<br><b>-</b>The town will get a message when your target is revived
+<br><b>-</b>If you are controlled by a Witch, and the witches target gets killed at night. You will revive them. (Their Last Will, Death Note, and role will be shown then they will be revived)
+<br><b>-</b>You can not revive cleaned roles.
+<br><b>-</b>You cannot revive people who have left the game.
+<br><b>-</b>You cannot revive neutral or mafia roles. 
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target seeks justice. Therefore your target must be a Sheriff, Retributionist, or Executioner.
+<br><u><i>Consigliere</i></u> - Your target is a Retributionist.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]></string>
+
+    <string name="Transporter"><![CDATA[<b>Abilities:</b> Choose two people to transport at night.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>Transporting two people will swap all targets against them.
+<br><b>-</b>You may transport yourself.
+<br><b>-</b>Your targets will know they were transported.
+<br>
+<br><b>Goal:</b> Lynch every criminal and evildoer.
+<br>
+<br><b>Note:</b> Immune to Witch\'s control.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target seeks justice. Therefore your target must be a Sheriff, Retributionist, or Executioner.
+<br><u><i>Consigliere</i></u> - Your target is a Retributionist.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]></string>
+</resources>

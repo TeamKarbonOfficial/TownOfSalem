@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.teamkarbon.android.townofsalem"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.teamkarbon.android.townofsalem.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teamkarbon.android.townofsalem.ListActivity"
+            android:label="@string/title_activity_list"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.teamkarbon.android.townofsalem.InnoActivity"
+            android:label="@string/title_activity_inno"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.teamkarbon.android.townofsalem.MafiaActivity"
+            android:label="@string/title_activity_mafia"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.teamkarbon.android.townofsalem.NeutralActivity"
+            android:label="@string/title_activity_neutral"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.teamkarbon.android.townofsalem.CosmeticActivity"
+            android:label="@string/title_activity_cosmetic"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.teamkarbon.android.townofsalem.DisplayActivity"
+            android:label="@string/title_activity_display"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

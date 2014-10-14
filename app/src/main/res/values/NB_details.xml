@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Amnesiac"><![CDATA[<b>Ability:</b> Remember who you were by selecting a graveyard role.
+<br>
+<br><b>Attributes:</b> When you choose a role it will be revealed to the town.
+<br>
+<br><b>Goal:</b> Remember who you were and complete that roles objectives. You can also survive at the end to win, like the Survivor.
+<br>
+<br><b>Note(s):</b>
+<br><b>-</b>You may select a graveyard role who has been cleaned by the Janitor.
+<br><b>-</b>You cannot select a graveyard role that is Unique. 
+<br><b>-</b>If you get doused, then the arsonist dies and you remember you are an arsonist, you will die when you ignite yourself.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target does not remember their role. They must be an Amnesiac.
+<br><u><i>Consigliere</i></u> - Your target does not remember their role. They must be an Amnesiac.
+<br>
+<br><b>Win Conditions:</b>
+<br>N/A]]></string>
+
+    <string name="Survivor"><![CDATA[<b>Abilities:</b> Put on a bulletproof vest at night, protecting yourself from attacks.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>You can only use the bulletproof vest 4 times. (BUG: Sometimes, you cannot remove your vest once it has been worn).
+<br><b>-</b>When you have a vest on, you cannot die (excluding the Arsonist\'s ignite, Jailor\'s execution, and Jester\'s haunt).
+<br><b>-</b>Even if you are not attacked, your vest will get destroyed.
+<br>
+<br><b>Goal:</b> Live to the end of the game.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target is a loner. They are either a Witch or Survivor.
+<br><u><i>Consigliere</i></u> - Your target simply wants to live. They must be a Survivor.
+<br>
+<br><b>Win Conditions:</b>
+<br>Win with Town
+<br>Win with Serial Killers
+<br>Win with Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]></string>
+</resources>

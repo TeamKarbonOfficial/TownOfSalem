@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Witch"><![CDATA[<b>Abilities:</b> Control someone each night.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>You can only control targetable actions such as detection and killing.
+<br><b>-</b>You can force people to target themselves.
+<br><b>-</b>Your victim will know they are being controlled.
+<br><b>-</b>You are immune to roleblocking.
+<br>
+<br><b>Goal:</b> Survive to see the Town lose the game.
+<br>
+<br><b>Special Attributes:</b> Roleblock Immunity, Detection Immunity
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target is a loner. They are either a Witch or a Survivor.
+<br><u><i>Consigliere</i></u> - Your target casts spells on people. They must be a Witch.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Win with Serial Killers
+<br>Win with Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]></string>
+
+    <string name="Executioner"><![CDATA[<b>Abilities:</b> Trick the Town into lynching your target.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>If your target is killed at night you will become a Jester at the beginning of the day.
+<br><b>-</b>Your target is always a Town member.
+<br><b>-</b>You cannot be killed at night.
+<br>
+<br><b>Goal:</b> Get your target lynched at any cost.
+<br>
+<br><b>Special Attributes:</b> Night Immunity
+<br>
+<br><b>Note(s):</b>
+<br><b>-</b>If your target is lynched, you win, even if you die after he is lynched. You are able to end the game with anyone (like Survivor). You also remain night immune after lynching your target.
+<br><b>-</b>You do not win if the game ends and your target is still alive.
+<br><b>-</b>If you become a Jester , you lose your night immunity.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target seeks justice. They must be a Sheriff, Retributionist, or Executioner.
+<br><u><i>Consigliere</i></u> - Your target wants someone to be lynched at any cost. They must be an Executioner.
+<br>
+<br><b>Win Conditions:</b>
+<br>Win with Town
+<br>Win with Serial Killers
+<br>Win with Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors
+<br>Wins even if target is revived by Retributionist]]></string>
+
+    <string name="Jester"><![CDATA[<b>Abilities:</b> Trick the Town into voting against you.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>If you are lynched, you may kill one of your guilty voters the following night.
+<br><b>-</b>This goes through any night immunity, however a transporter can swap your target with somebody else and get them killed instead.
+<br>
+<br><b>Goal:</b> Get yourself lynched by any means necessary.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target enjoys tricking people. They must be a Disguiser or Jester.
+<br><u><i>Consigliere</i></u> - Your target wants to be lynched. They must be a Jester.
+<br>
+<br><b>Win Conditions:</b>
+<br>Win with Town
+<br>Win with Serial Killers
+<br>Win with Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]></string>
+</resources>

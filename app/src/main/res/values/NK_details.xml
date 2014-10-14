@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Arsonist"><![CDATA[<b>Abilities:</b> Douse someone in gasoline or ignite all doused targets.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>Targets will know they are doused in gasoline.
+<br><b>-</b>Death from fire can\'t be prevented by healing or night immunities.
+<br><b>-</b>If you do not choose an action at night you will clean yourself.
+<br>
+<br><b>Goal:</b> Live to see everyone burn.
+<br>
+<br><b>Special Attributes:</b> Night Immunity, Ignores Night Immunity, Detection Immunity
+<br>
+<br><b>Note(s):</b>
+<br><b>-</b>You will win a stalemate versus Godfather, Serial Killer and Jailor.
+<br><b>-</b>A jailed target can be saved from being doused and ignited.
+<br><b>-</b>You are able to ignite people that have been doused by other Arsonists.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target smells like gas. They are either an Arsonist or a Transporter.
+<br><u><i>Consigliere</i></u> - Your target enjoys watching things burn. They must be an Arsonist.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Must kill Serial Killers
+<br>Win with Arsonists
+<br>Must kill Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]></string>
+
+    <string name="Serial_Killer"><![CDATA[<b>Abilities:</b> Kill someone each night.
+<br>
+<br><b>Attributes:</b> If you are role blocked you will attack the role blocker instead of your target. This includes the Escort, Consort, and Jailor.
+<br>
+<br><b>Goal:</b> Kill everyone who would oppose you.
+<br>
+<br><b>Special Attributes:</b> Night Immunity
+<br>
+<br><b>Note(s):</b>
+<br><b>-</b>You will win with other Serial Killers.
+<br><b>-</b>You will win a stalemate versus Godfather.
+<br><b>-</b>You lose in a stalemate versus an Arsonist.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Your target is a Serial Killer.
+<br><u><i>Investigator</i></u> - Your target works with knives. They are either a Doctor or a Serial Killer.
+<br><u><i>Consigliere</i></u> - Your target wants to kill everyone. They must be a Serial Killer.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Win with Serial Killers
+<br>Must kill Arsonists
+<br>Must kill Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]></string>
+</resources>

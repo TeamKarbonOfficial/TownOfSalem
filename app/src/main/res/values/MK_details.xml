@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Godfather"><![CDATA[<b>Ability:</b> Kill someone each night.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>You can\'t be killed at night.
+<br><b>-</b>If there is a Mafioso, he will attack the target instead of you.
+<br><b>-</b>You will appear to be a town member to the Sheriff.
+<br><b>-</b>You can talk with the other Mafia at night.
+<br>
+<br><b>Goal:</b> Kill anyone that will not submit to the Mafia.
+<br>
+<br><b>Special Attribute:</b> Unique Role, Detection Immunity, Night Immunity
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target is a leader among men. They must be the Mayor or the Godfather.
+<br><u><i>Consigliere</i></u> - N/A
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Must kill Serial Killers
+<br>Must kill Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]></string>
+
+    <string name="Mafioso"><![CDATA[<b>Ability:</b> Vote on someone to kill at night.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>You will carry out the Godfather\'s orders.
+<br><b>-</b>If Godfather is dead or did not choose to kill someone you kill whoever you want.
+<br><b>-</b>You can talk with the other Mafia at night.
+<br>
+<br><b>Goal:</b> Kill anyone that will not submit to the Mafia.
+<br>
+<br><b>Special Attributes:</b> Unique Role
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Your target is a member of the Mafia.
+<br><u><i>Investigator</i></u> - Your target is good with documents. They must be a Framer
+<br><u><i>Consigliere</i></u> - N/A
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Must kill Serial Killers
+<br>Must kill Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]></string>
+</resources>

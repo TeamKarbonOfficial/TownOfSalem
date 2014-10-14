@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Disguiser"><![CDATA[<b>Ability:</b> Choose one person at night to disguise as.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>Disguise your self as someone at night.
+<br><b>-</b>If your target dies you swap names, houses, and, avatars.
+<br><b>-</b>You only have 3 disguises
+<br><b>-</b>If there are no killing roles in the mafia you become a Mafioso
+<br><b>-</b>You can talk with other members of the mafia at night
+<br>
+<br><b>Goal:</b> Kill anyone that will not submit to the Mafia.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Your target is a member of the Mafia.
+<br><u><i>Investigator</i></u> - Your target enjoys tricking people. They could be a Jester or Disguiser
+<br><u><i>Consigliere</i></u> - N/A
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Must kill Serial Killers
+<br>Must kill Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]></string>
+
+    <string name="Framer"><![CDATA[<b>Ability:</b> Choose one person at night to frame.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>Investigators will see framed targets as Framer.
+<br><b>-</b>Sheriffs will see framed targets as Mafia.
+<br><b>-</b>If there are no kill capable Mafia roles left you will become Mafioso
+<br><b>-</b>You can talk with the other Mafia at night.
+<br>
+<br><b>Goal:</b> Kill anyone who will not submit to the Mafia.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Your target is a member of the Mafia.
+<br><u><i>Investigator</i></u> - Your target is good with documents. They must be a Framer
+<br><u><i>Consigliere</i></u> - N/A
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Must kill Serial Killers
+<br>Must kill Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]></string>
+
+<string name="Janitor"><![CDATA[<b>Ability:</b> Choose one person at night to clean.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>If your target dies at night their role and last will will not be shown to the town.
+<br><b>-</b>You only have 3 cleanings.
+<br><b>-</b>Only you will know the role and get to see the last will.
+<br><b>-</b>If there are no kill capable Mafia roles left you will become Mafioso
+<br><b>-</b>You can talk with the other Mafia at night.
+<br>
+<br><b>Goal:</b> Kill anyone that will not submit to the Mafia.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Your target is a member of the Mafia.
+<br><u><i>Investigator</i></u> - Your target works with dead bodies. They must be a Janitor or Medium
+<br><u><i>Consigliere</i></u> - N/A
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Must kill Serial Killers
+<br>Must kill Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]></string>
+</resources>

@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res" >
+            <file
+                name="ic_launcher"
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="background"
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\drawable-mdpi\background.jpg"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="logo"
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\drawable-mdpi\logo.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_cosmetic"
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\layout\activity_cosmetic.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_display"
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\layout\activity_display.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_inno"
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\layout\activity_inno.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_list"
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\layout\activity_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_mafia"
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\layout\activity_mafia.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_main"
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\layout\activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_neutral"
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\layout\activity_neutral.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="cosmetic"
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\menu\cosmetic.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="display"
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\menu\display.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="inno"
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\menu\inno.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="list"
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\menu\list.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="mafia"
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\menu\mafia.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="main"
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\menu\main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="neutral"
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\menu\neutral.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\values\color.xml"
+                qualifiers="" >
+                <color name="Green" >#4CC417
+                </color>
+                <color name="Red" >#FF0000
+                </color>
+                <color name="Blue" >#00FFFF
+                </color>
+                <color name="Purple" >#E238EC
+                </color>
+            </file>
+            <file
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\values\MD_details.xml"
+                qualifiers="" >
+                <string name="Framer" >
+<![CDATA[<b>Ability:</b> Choose one person at night to frame.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>Investigators will see framed targets as Framer.
+<br><b>-</b>Sheriffs will see framed targets as Mafia.
+<br><b>-</b>If there are no kill capable Mafia roles left you will become Mafioso
+<br><b>-</b>You can talk with the other Mafia at night.
+<br>
+<br><b>Goal:</b> Kill anyone who will not submit to the Mafia.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Your target is a member of the Mafia.
+<br><u><i>Investigator</i></u> - Your target is good with documents. They must be a Framer
+<br><u><i>Consigliere</i></u> - N/A
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Must kill Serial Killers
+<br>Must kill Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]>
+                </string>
+                <string name="Janitor" >
+<![CDATA[<b>Ability:</b> Choose one person at night to clean.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>If your target dies at night their role and last will will not be shown to the town.
+<br><b>-</b>You only have 3 cleanings.
+<br><b>-</b>Only you will know the role and get to see the last will.
+<br><b>-</b>If there are no kill capable Mafia roles left you will become Mafioso
+<br><b>-</b>You can talk with the other Mafia at night.
+<br>
+<br><b>Goal:</b> Kill anyone that will not submit to the Mafia.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Your target is a member of the Mafia.
+<br><u><i>Investigator</i></u> - Your target works with dead bodies. They must be a Janitor or Medium
+<br><u><i>Consigliere</i></u> - N/A
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Must kill Serial Killers
+<br>Must kill Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]>
+                </string>
+                <string name="Disguiser" >
+<![CDATA[<b>Ability:</b> Choose one person at night to disguise as.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>Disguise your self as someone at night.
+<br><b>-</b>If your target dies you swap names, houses, and, avatars.
+<br><b>-</b>You only have 3 disguises
+<br><b>-</b>If there are no killing roles in the mafia you become a Mafioso
+<br><b>-</b>You can talk with other members of the mafia at night
+<br>
+<br><b>Goal:</b> Kill anyone that will not submit to the Mafia.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Your target is a member of the Mafia.
+<br><u><i>Investigator</i></u> - Your target enjoys tricking people. They could be a Jester or Disguiser
+<br><u><i>Consigliere</i></u> - N/A
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Must kill Serial Killers
+<br>Must kill Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]>
+                </string>
+            </file>
+            <file
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\values\MK_details.xml"
+                qualifiers="" >
+                <string name="Mafioso" >
+<![CDATA[<b>Ability:</b> Vote on someone to kill at night.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>You will carry out the Godfather\'s orders.
+<br><b>-</b>If Godfather is dead or did not choose to kill someone you kill whoever you want.
+<br><b>-</b>You can talk with the other Mafia at night.
+<br>
+<br><b>Goal:</b> Kill anyone that will not submit to the Mafia.
+<br>
+<br><b>Special Attributes:</b> Unique Role
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Your target is a member of the Mafia.
+<br><u><i>Investigator</i></u> - Your target is good with documents. They must be a Framer
+<br><u><i>Consigliere</i></u> - N/A
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Must kill Serial Killers
+<br>Must kill Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]>
+                </string>
+                <string name="Godfather" >
+<![CDATA[<b>Ability:</b> Kill someone each night.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>You can\'t be killed at night.
+<br><b>-</b>If there is a Mafioso, he will attack the target instead of you.
+<br><b>-</b>You will appear to be a town member to the Sheriff.
+<br><b>-</b>You can talk with the other Mafia at night.
+<br>
+<br><b>Goal:</b> Kill anyone that will not submit to the Mafia.
+<br>
+<br><b>Special Attribute:</b> Unique Role, Detection Immunity, Night Immunity
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target is a leader among men. They must be the Mayor or the Godfather.
+<br><u><i>Consigliere</i></u> - N/A
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Must kill Serial Killers
+<br>Must kill Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]>
+                </string>
+            </file>
+            <file
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\values\MS_details.xml"
+                qualifiers="" >
+                <string name="Consigliere" >
+<![CDATA[<b>Ability:</b> Investigate one person for its role.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>If there is no kill capable Mafia roles left, you will become a Mafioso.
+<br><b>-</b>You can talk with other Mafia at night.
+<br>
+<br><b>Goal:</b> Kill anyone who will not submit to the Mafia.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Your target is a member of the Mafia.
+<br><u><i>Investigator</i></u> - Your target gathers information. They must be an Investigator or Consigliere.
+<br><u><i>Consigliere</i></u> - N/A
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Must kill Serial Killers
+<br>Must kill Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]>
+                </string>
+                <string name="Consort" >
+<![CDATA[<b>Abilities:</b> Distract someone each night.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>Distraction blocks your target from using their role\'s night ability.
+<br><b>-</b>If there are no kill capable Mafia roles left you will become a Mafioso.
+<br><b>-</b>You can talk with the other Mafia at night.
+<br><b>-</b>You are immune to roleblock.
+<br>
+<br><b>Goal:</b> Kill anyone that will not submit to the Mafia.
+<br>
+<br><b>Note:</b> If you roleblock the Serial Killer, they will attack you instead.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Your target is a member of the Mafia.
+<br><u><i>Investigator</i></u> - Your target is a manipulative beauty. They are either an Escort or a Consort
+<br><u><i>Consigliere</i></u> - N/A
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Must kill Serial Killers
+<br>Must kill Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]>
+                </string>
+                <string name="Blackmailer" >
+<![CDATA[<b>Ability:</b> Choose one person at night to blackmail.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>Blackmailed targets cannot talk during the day.
+<br><b>-</b>During Judgement, blackmailed target\'s message will be changed to \"I am blackmailed.\"
+<br><b>-</b>If there are no kill capable Mafia roles left you will become Mafioso
+<br><b>-</b>You can talk with the other Mafia at night.
+<br>
+<br><b>Goal:</b> Kill anyone that will not submit to the Mafia.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Your target is a member of the Mafia.
+<br><u><i>Investigator</i></u> - Your target has secret information. They must be a Spy or Blackmailer.
+<br><u><i>Consigliere</i></u> - N/A
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Must kill Serial Killers
+<br>Must kill Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]>
+                </string>
+            </file>
+            <file
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\values\NB_details.xml"
+                qualifiers="" >
+                <string name="Amnesiac" >
+<![CDATA[<b>Ability:</b> Remember who you were by selecting a graveyard role.
+<br>
+<br><b>Attributes:</b> When you choose a role it will be revealed to the town.
+<br>
+<br><b>Goal:</b> Remember who you were and complete that roles objectives. You can also survive at the end to win, like the Survivor.
+<br>
+<br><b>Note(s):</b>
+<br><b>-</b>You may select a graveyard role who has been cleaned by the Janitor.
+<br><b>-</b>You cannot select a graveyard role that is Unique. 
+<br><b>-</b>If you get doused, then the arsonist dies and you remember you are an arsonist, you will die when you ignite yourself.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target does not remember their role. They must be an Amnesiac.
+<br><u><i>Consigliere</i></u> - Your target does not remember their role. They must be an Amnesiac.
+<br>
+<br><b>Win Conditions:</b>
+<br>N/A]]>
+                </string>
+                <string name="Survivor" >
+<![CDATA[<b>Abilities:</b> Put on a bulletproof vest at night, protecting yourself from attacks.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>You can only use the bulletproof vest 4 times. (BUG: Sometimes, you cannot remove your vest once it has been worn).
+<br><b>-</b>When you have a vest on, you cannot die (excluding the Arsonist\'s ignite, Jailor\'s execution, and Jester\'s haunt).
+<br><b>-</b>Even if you are not attacked, your vest will get destroyed.
+<br>
+<br><b>Goal:</b> Live to the end of the game.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target is a loner. They are either a Witch or Survivor.
+<br><u><i>Consigliere</i></u> - Your target simply wants to live. They must be a Survivor.
+<br>
+<br><b>Win Conditions:</b>
+<br>Win with Town
+<br>Win with Serial Killers
+<br>Win with Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]>
+                </string>
+            </file>
+            <file
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\values\NE_details.xml"
+                qualifiers="" >
+                <string name="Jester" >
+<![CDATA[<b>Abilities:</b> Trick the Town into voting against you.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>If you are lynched, you may kill one of your guilty voters the following night.
+<br><b>-</b>This goes through any night immunity, however a transporter can swap your target with somebody else and get them killed instead.
+<br>
+<br><b>Goal:</b> Get yourself lynched by any means necessary.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target enjoys tricking people. They must be a Disguiser or Jester.
+<br><u><i>Consigliere</i></u> - Your target wants to be lynched. They must be a Jester.
+<br>
+<br><b>Win Conditions:</b>
+<br>Win with Town
+<br>Win with Serial Killers
+<br>Win with Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]>
+                </string>
+                <string name="Executioner" >
+<![CDATA[<b>Abilities:</b> Trick the Town into lynching your target.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>If your target is killed at night you will become a Jester at the beginning of the day.
+<br><b>-</b>Your target is always a Town member.
+<br><b>-</b>You cannot be killed at night.
+<br>
+<br><b>Goal:</b> Get your target lynched at any cost.
+<br>
+<br><b>Special Attributes:</b> Night Immunity
+<br>
+<br><b>Note(s):</b>
+<br><b>-</b>If your target is lynched, you win, even if you die after he is lynched. You are able to end the game with anyone (like Survivor). You also remain night immune after lynching your target.
+<br><b>-</b>You do not win if the game ends and your target is still alive.
+<br><b>-</b>If you become a Jester , you lose your night immunity.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target seeks justice. They must be a Sheriff, Retributionist, or Executioner.
+<br><u><i>Consigliere</i></u> - Your target wants someone to be lynched at any cost. They must be an Executioner.
+<br>
+<br><b>Win Conditions:</b>
+<br>Win with Town
+<br>Win with Serial Killers
+<br>Win with Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors
+<br>Wins even if target is revived by Retributionist]]>
+                </string>
+                <string name="Witch" >
+<![CDATA[<b>Abilities:</b> Control someone each night.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>You can only control targetable actions such as detection and killing.
+<br><b>-</b>You can force people to target themselves.
+<br><b>-</b>Your victim will know they are being controlled.
+<br><b>-</b>You are immune to roleblocking.
+<br>
+<br><b>Goal:</b> Survive to see the Town lose the game.
+<br>
+<br><b>Special Attributes:</b> Roleblock Immunity, Detection Immunity
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target is a loner. They are either a Witch or a Survivor.
+<br><u><i>Consigliere</i></u> - Your target casts spells on people. They must be a Witch.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Win with Serial Killers
+<br>Win with Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]>
+                </string>
+            </file>
+            <file
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\values\NK_details.xml"
+                qualifiers="" >
+                <string name="Arsonist" >
+<![CDATA[<b>Abilities:</b> Douse someone in gasoline or ignite all doused targets.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>Targets will know they are doused in gasoline.
+<br><b>-</b>Death from fire can\'t be prevented by healing or night immunities.
+<br><b>-</b>If you do not choose an action at night you will clean yourself.
+<br>
+<br><b>Goal:</b> Live to see everyone burn.
+<br>
+<br><b>Special Attributes:</b> Night Immunity, Ignores Night Immunity, Detection Immunity
+<br>
+<br><b>Note(s):</b>
+<br><b>-</b>You will win a stalemate versus Godfather, Serial Killer and Jailor.
+<br><b>-</b>A jailed target can be saved from being doused and ignited.
+<br><b>-</b>You are able to ignite people that have been doused by other Arsonists.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target smells like gas. They are either an Arsonist or a Transporter.
+<br><u><i>Consigliere</i></u> - Your target enjoys watching things burn. They must be an Arsonist.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Must kill Serial Killers
+<br>Win with Arsonists
+<br>Must kill Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]>
+                </string>
+                <string name="Serial_Killer" >
+<![CDATA[<b>Abilities:</b> Kill someone each night.
+<br>
+<br><b>Attributes:</b> If you are role blocked you will attack the role blocker instead of your target. This includes the Escort, Consort, and Jailor.
+<br>
+<br><b>Goal:</b> Kill everyone who would oppose you.
+<br>
+<br><b>Special Attributes:</b> Night Immunity
+<br>
+<br><b>Note(s):</b>
+<br><b>-</b>You will win with other Serial Killers.
+<br><b>-</b>You will win a stalemate versus Godfather.
+<br><b>-</b>You lose in a stalemate versus an Arsonist.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Your target is a Serial Killer.
+<br><u><i>Investigator</i></u> - Your target works with knives. They are either a Doctor or a Serial Killer.
+<br><u><i>Consigliere</i></u> - Your target wants to kill everyone. They must be a Serial Killer.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Win with Serial Killers
+<br>Must kill Arsonists
+<br>Must kill Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]>
+                </string>
+            </file>
+            <file
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="Cosmetic_info" >Cosmetic
+                </string>
+                <string name="Inno_info" >Town
+                </string>
+                <string name="title_activity_list" >ListActivity
+                </string>
+                <string name="Loading" >Loading . . .
+                </string>
+                <string name="title_activity_neutral" >NeutralActivity
+                </string>
+                <string name="title_activity_mafia" >MafiaActivity
+                </string>
+                <string name="Neutral_info" >Neutral
+                </string>
+                <string name="List_info" >All
+                </string>
+                <string name="Mafia_info" >Mafia
+                </string>
+                <string name="Roles" >Roles
+                </string>
+                <string name="title_activity_inno" >InnoActivity
+                </string>
+                <string name="title_activity_display" >DisplayActivity
+                </string>
+                <string name="KickStarter_info" >Support Town of Salem KickStater!
+                </string>
+                <string name="title_activity_cosmetic" >CosmeticActivity
+                </string>
+                <string name="app_name" >ToS Wiki
+                </string>
+                <string name="Button_Role" >All Roles!
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+            </file>
+            <file
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+                    <item name="android:windowActionBar">
+false
+                    </item>
+                    <item name="android:windowNoTitle">
+true
+                    </item>
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+                    <item name="android:windowActionBar">
+false
+                    </item>
+                    <item name="android:windowNoTitle">
+true
+                    </item>
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\values\TI_details.xml"
+                qualifiers="" >
+                <string name="Spy" >
+<![CDATA[<b>Abilities:</b> You can secretly listen to the Mafia at night.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>You can read private messages.
+<br><b>-</b>You can anonymously hear the Mafia talk at night.
+<br><b>-</b>You will know who the Mafia visit at night.
+<br>
+<br><b>Goal:</b> Lynch every criminal and evildoer.
+<br>
+<br><b>Note:</b> Spy keeps his abilities while dead, making him very useful to Town if it has a Medium.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target has secret information. They are either a Spy or Blackmailer.
+<br><u><i>Consigliere</i></u> - Your target secretly listens in on private conversations. They must be a Spy.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]>
+                </string>
+                <string name="Investigator" >
+<![CDATA[<b>Abilities:</b> Investigate one person each night for a clue to their role.
+<br>
+<br><b>Goal:</b> Lynch every criminal and evildoer.
+<br>
+<br><b>Note:</b> Framed players will appear to be a Framer.
+<br>
+<br><b>Message When Investigating:</b>
+<br><u><i>Bodyguard, Jailor, or Lookout</i></u> - Your target is a protector.
+<br><u><i>Transporter or Arsonist</i></u> - Your target smells of gas.
+<br><u><i>Doctor or Serial Killer</i></u> - Your target works with knives.
+<br><u><i>Consort or Escort</i></u> - Your target is a manipulative beauty.
+<br><u><i>Investigator or Consigliere</i></u> - Your target gathers information.
+<br><u><i>Godfather or Mayor</i></u> - Your target is a leader among men.
+<br><u><i>Sheriff, Retributionist, or Executioner</i></u> - Your target seeks justice.
+<br><u><i>Spy or Blackmailer</i></u> - Your target works with secret information.
+<br><u><i>Veteran, Vigilante or Mafioso</i></u> - Your target works with weapons.
+<br><u><i>Disguiser or Jester</i></u> - Your target enjoys tricking people.
+<br><u><i>Janitor or Medium</i></u> - Your target works with dead bodies.
+<br><u><i>Framer</i></u> - Your target is good with documents.
+<br><u><i>Amnesiac</i></u> - Your target does not remember their role.
+<br><u><i>Survivor or Witch.</i></u> - Your target is a loner.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target gathers information. They must be an Investigator or Consigliere.
+<br><u><i>Consigliere</i></u> - Your target gather information. They must be an investigator
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]>
+                </string>
+                <string name="Sheriff" >
+<![CDATA[<b>Abilities:</b> Check one person each night for suspicious activity.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>You will know if your target is a member of the Mafia.
+<br><b>-</b>You will know if your target is a Serial Killer.
+<br><b>-</b>Cannot detect Detection Immune roles
+<br>
+<br>Goal: Lynch every criminal and evildoer.
+<br>
+<br><b>Note(s):</b>
+<br><b>-</b>The Godfather and Arsonist are detection immune. They will appear non-suspicious for you.
+<br><b>-</b>Framed players will appear to be a Framer.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target seeks justice. Therefore your target must be a Sheriff, Retributionist, or Executioner.
+<br><u><i>Consigliere</i></u> - Your target is a protector of the town. They must be a Sheriff.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]>
+                </string>
+                <string name="Lookout" >
+<![CDATA[<b>Abilities:</b> Watch one person at night to see who visits them.
+<br>
+<br><b>Goal:</b> Lynch every criminal and evildoer.
+<br>
+<br><b>Special Abilities:</b> Ignores Detection Immunity
+<br>
+<br><b>Notes:</b>
+<br><b>-</b>You will see a Jailor visit their target even if they are not executed.
+<br><b>-</b>You will still be shot by the Veteran if you choose to watch them at night.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target is a protector. They must be a Bodyguard, Jailor, or a Lookout.
+<br><u><i>Consigliere</i></u> - Your target watches who visits people at night. They must be a Lookout.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]>
+                </string>
+            </file>
+            <file
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\values\TK_details.xml"
+                qualifiers="" >
+                <string name="Veteran" >
+<![CDATA[<b>Abilities:</b> Decide if you will go on alert at night.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>While on alert you can not be killed at night.
+<br><b>-</b>If anyone visits you while you are on alert they will be shot.
+<br><b>-</b>You are immune to role blocks.
+<br><b>-</b>You only have 3 alerts.
+<br><b>-</b>Special Attributes: Unique Role, Ignores Night Immunity, Roleblock Immune
+<br>
+<br><b>Note(s):</b>
+<br><b>-</b>If someone who visits you gets healed by a doctor, they will not die.
+<br><b>-</b>If a Transporter transports you, the Transporter will die but the transport will still occur.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target works with weapons. They must be a Veteran, Vigilante, or Mafioso.
+<br><u><i>Consigliere</i></u> - Your target is a paranoid war hero. They must be a Veteran.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]>
+                </string>
+                <string name="Vigilante" >
+<![CDATA[<b>Abilities:</b> Choose to take justice into your own hands and shoot someone.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>If you shoot another town member you will commit suicide over the guilt.
+<br><b>-</b>You can not shoot night 1.
+<br><b>-</b>You have only 3 bullets.
+<br><b>-</b>Your attack does not ignore Night Immunity.
+<br>
+<br><b>Goal:</b> Lynch every criminal and evildoer.
+<br>
+<br><b>Note(s):</b>
+<br><b>-</b>You may shoot night 1 if you are controlled by a witch.
+<br><b>-</b>If you die the same night you shoot a town member it will also say you died of guilt.
+<br><b>-</b>You can be killed by a Bodyguard.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target works with weapons. They must be a Veteran, Vigilante, or Mafioso.
+<br><u><i>Consigliere</i></u> - Your target is a paranoid war hero. They must be a Veteran.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]>
+                </string>
+                <string name="Jailor" >
+<![CDATA[<b>Abilities:</b> You may choose one person during the day to jail for the night.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>You may anonymously talk with your prisoner.
+<br><b>-</b>You may choose to execute your prisoner.
+<br><b>-</b>The jailed target cannot perform their night ability.
+<br><b>-</b>While jailed, the prisoner is immune to all attacks.
+<br>
+<br><b>Goal</b>: Lynch every criminal and evildoer.
+<br>
+<br><b>Special Attributes:</b> Unique Role, Ignores Night Immunity, Roleblocking
+<br>
+<br><b>Note(s):</b>
+<br><b>-</b>You cannot execute on the first night.
+<br><b>-</b>You cannot execute more than 3 targets.
+<br><b>-</b>You may not execute your target if roleblocked.
+<br><b>-</b>Two Jailors can occur in one game, although it is a Unique Role.
+<br><b>-</b>If a Witch controls you into targeting your prisoner, you will be forced to execute them.
+<br><b>-</b>If you jail a Serial Killer, they will kill you if you don\'t execute them. A bodyguard can protect you from this, though.
+<br><b>-</b>A jailed target is protected from an Arsonist igniting and dousing.
+<br><b>-</b>A jailed target is also protected from a Blackmailer\'s blackmail.
+<br><b>-</b>Click on the Sun Icon during the day phase to select a person to jail that night.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target is a protector. They must be a Bodyguard, Jailor, or a Lookout.
+<br><u><i>Consigliere</i></u> - Your target detains people at night. They must be a Jailor.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]>
+                </string>
+            </file>
+            <file
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\values\TP_details.xml"
+                qualifiers="" >
+                <string name="Doctor" >
+<![CDATA[<b>Abilities:</b> Heal one person each night, preventing them from dying.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>You may heal yourself once.
+<br><b>-</b>You will know if your target is attacked.
+<br>
+<br><b>Goal:</b> Lynch every criminal and evildoer.
+<br>
+<br><b>Note(s):</b>
+<br><b>-</b>You can heal kills made by a Veteran.
+<br><b>-</b>You can heal Escorts/Consorts/Jailors stabbed by the Serial Killer.
+<br><b>-</b>You can heal kills made by a Bodyguard.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target is good with knives. They are either a Doctor or a Serial Killer
+<br><u><i>Consigliere</i></u> - Your target is a professional surgeon, they must be a Doctor.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]>
+                </string>
+                <string name="Bodyguard" >
+<![CDATA[<b>Attributes:</b> 
+<br><b>-</b>If your target is attacked both you and your attacker will die instead. (You can be healed by a Doctor)
+<br><b>-</b>Your counterattack ignores night immunity.
+<br><b>-</b>You have 1 bullet proof vest like survivor, and can not die with it on.
+<br>
+<br><b>Goal:</b> Lynch every criminal and evildoer.
+<br>
+<br><b>Special Attributes:</b> Ignores Night Immunity.
+<br>
+<br><b>Note:</b> Killable roles include Godfather, Mafioso, Serial Killer, Arsonist and Vigilante.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target is a protector. They must be a Bodyguard, Jailor, or a Lookout.
+<br><u><i>Consigliere</i></u> - Your target is a trained protector, they must be a BodyGuard.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]>
+                </string>
+            </file>
+            <file
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\values\TS_details.xml"
+                qualifiers="" >
+                <string name="Retributionist" >
+<![CDATA[<b>Abilities:</b> You may revive a dead Town member.
+<br>
+<br><b>Attributes:</b> You may only resurrect one person.
+<br>
+<br><b>Goal:</b> Lynch every criminal and evildoer.
+<br>
+<br><b>Special Attributes:</b> Unique Role
+<br>
+<br><b>Note:</b>
+<br><b>-</b>The town will get a message when your target is revived
+<br><b>-</b>If you are controlled by a Witch, and the witches target gets killed at night. You will revive them. (Their Last Will, Death Note, and role will be shown then they will be revived)
+<br><b>-</b>You can not revive cleaned roles.
+<br><b>-</b>You cannot revive people who have left the game.
+<br><b>-</b>You cannot revive neutral or mafia roles. 
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target seeks justice. Therefore your target must be a Sheriff, Retributionist, or Executioner.
+<br><u><i>Consigliere</i></u> - Your target is a Retributionist.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]>
+                </string>
+                <string name="Escort" >
+<![CDATA[<b>Abilities:</b> Distract someone each night.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>Distraction blocks your target from using their roles night ability.
+<br>
+<br><b>Goal:</b> Lynch every criminal and evildoer.
+<br>
+<br><b>Special Attributes:</b> Roleblock Immunity, Roleblocking
+<br>
+<br><b>Note:</b> If you target a Serial Killer they will attack you instead.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target is a manipulative beauty. They are either an Escort or a Consort
+<br><u><i>Consigliere</i></u> - Your target is a beautiful woman working for the town. She must be an Escort.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]>
+                </string>
+                <string name="Mayor" >
+<![CDATA[<b>Ability:</b> You may reveal yourself as the Mayor of the Town.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>Once revealed, your vote weight is increased to 3.
+<br><b>-</b>Once revealed, you cannot be healed by a Doctor.
+<br>
+<br><b>-</b><b>Goal:</b> Lynch every criminal and evildoer.
+<br>
+<br><b>Special Attributes:</b> Unique Role
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target is a leader among men; they must be the Mayor or the Godfather
+<br><u><i>Consigliere</i></u> - Your target is the leader of the town. They must be the Mayor.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]>
+                </string>
+                <string name="Medium" >
+<![CDATA[<b>Abilities:</b>
+<br><b>-</b>Speak with the dead at night.
+<br><b>-</b>If dead, choose one living player to talk to by clicking the Sun Icon and choosing a person during the day.
+<br><b>-</b>Your identity is not shown to anyone.
+<br><b>-</b>When talking to the dead, you do not hear other mediums.
+<br><b>-</b>When talking to the living, dead can not hear you.
+<br><b>-</b>When in jail, dead can not hear you.
+<br><b>-</b>When talking to the mafia, you can not hear them.
+<br>
+<br><b>Attributes:</b> You will speak to your target anonymously.
+<br>
+<br><b>Goal:</b> Lynch every criminal and evildoer.
+<br>
+<br><b>Note:</b> If you are jailed, you may converse with the Jailor whilst looking at the dead chat however you are confined to the Jailor, the dead will not hear you, it is the Jailor you will be speaking with.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target works with dead bodies. They must be a Medium or Janitor.
+<br><u><i>Consigliere</i></u> - Your target speaks with the dead. They must be a Medium.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]>
+                </string>
+                <string name="Transporter" >
+<![CDATA[<b>Abilities:</b> Choose two people to transport at night.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>Transporting two people will swap all targets against them.
+<br><b>-</b>You may transport yourself.
+<br><b>-</b>Your targets will know they were transported.
+<br>
+<br><b>Goal:</b> Lynch every criminal and evildoer.
+<br>
+<br><b>Note:</b> Immune to Witch\'s control.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target seeks justice. Therefore your target must be a Sheriff, Retributionist, or Executioner.
+<br><u><i>Consigliere</i></u> - Your target is a Retributionist.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]>
+                </string>
+            </file>
+            <file
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\values-sw720dp-land\dimens.xml"
+                qualifiers="sw720dp-land-v13" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\build\generated\res\rs\debug" />
+        <source path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\build\generated\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\debug\res" />
+    </dataSet>
+
+</merger>

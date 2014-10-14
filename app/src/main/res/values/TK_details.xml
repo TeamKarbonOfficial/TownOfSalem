@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Jailor"><![CDATA[<b>Abilities:</b> You may choose one person during the day to jail for the night.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>You may anonymously talk with your prisoner.
+<br><b>-</b>You may choose to execute your prisoner.
+<br><b>-</b>The jailed target cannot perform their night ability.
+<br><b>-</b>While jailed, the prisoner is immune to all attacks.
+<br>
+<br><b>Goal</b>: Lynch every criminal and evildoer.
+<br>
+<br><b>Special Attributes:</b> Unique Role, Ignores Night Immunity, Roleblocking
+<br>
+<br><b>Note(s):</b>
+<br><b>-</b>You cannot execute on the first night.
+<br><b>-</b>You cannot execute more than 3 targets.
+<br><b>-</b>You may not execute your target if roleblocked.
+<br><b>-</b>Two Jailors can occur in one game, although it is a Unique Role.
+<br><b>-</b>If a Witch controls you into targeting your prisoner, you will be forced to execute them.
+<br><b>-</b>If you jail a Serial Killer, they will kill you if you don\'t execute them. A bodyguard can protect you from this, though.
+<br><b>-</b>A jailed target is protected from an Arsonist igniting and dousing.
+<br><b>-</b>A jailed target is also protected from a Blackmailer\'s blackmail.
+<br><b>-</b>Click on the Sun Icon during the day phase to select a person to jail that night.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target is a protector. They must be a Bodyguard, Jailor, or a Lookout.
+<br><u><i>Consigliere</i></u> - Your target detains people at night. They must be a Jailor.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]></string>
+
+    <string name="Veteran"><![CDATA[<b>Abilities:</b> Decide if you will go on alert at night.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>While on alert you can not be killed at night.
+<br><b>-</b>If anyone visits you while you are on alert they will be shot.
+<br><b>-</b>You are immune to role blocks.
+<br><b>-</b>You only have 3 alerts.
+<br><b>-</b>Special Attributes: Unique Role, Ignores Night Immunity, Roleblock Immune
+<br>
+<br><b>Note(s):</b>
+<br><b>-</b>If someone who visits you gets healed by a doctor, they will not die.
+<br><b>-</b>If a Transporter transports you, the Transporter will die but the transport will still occur.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target works with weapons. They must be a Veteran, Vigilante, or Mafioso.
+<br><u><i>Consigliere</i></u> - Your target is a paranoid war hero. They must be a Veteran.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]></string>
+
+    <string name="Vigilante"><![CDATA[<b>Abilities:</b> Choose to take justice into your own hands and shoot someone.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>If you shoot another town member you will commit suicide over the guilt.
+<br><b>-</b>You can not shoot night 1.
+<br><b>-</b>You have only 3 bullets.
+<br><b>-</b>Your attack does not ignore Night Immunity.
+<br>
+<br><b>Goal:</b> Lynch every criminal and evildoer.
+<br>
+<br><b>Note(s):</b>
+<br><b>-</b>You may shoot night 1 if you are controlled by a witch.
+<br><b>-</b>If you die the same night you shoot a town member it will also say you died of guilt.
+<br><b>-</b>You can be killed by a Bodyguard.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target works with weapons. They must be a Veteran, Vigilante, or Mafioso.
+<br><u><i>Consigliere</i></u> - Your target is a paranoid war hero. They must be a Veteran.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]></string>
+
+</resources>

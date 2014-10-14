@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ToS Wiki</string>
+    <string name="action_settings">Settings</string>
+    <string name="Button_Role">All Roles!</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="Roles">Roles</string>
+    <string name="List_info">All</string>
+    <string name="Inno_info">Town</string>
+    <string name="Mafia_info">Mafia</string>
+    <string name="Neutral_info">Neutral</string>
+    <string name="Cosmetic_info">Cosmetic</string>
+    <string name="KickStarter_info">Support Town of Salem KickStater!</string>
+    <string name="title_activity_inno">InnoActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_mafia">MafiaActivity</string>
+    <string name="title_activity_neutral">NeutralActivity</string>
+    <string name="title_activity_cosmetic">CosmeticActivity</string>
+    <string name="title_activity_display">DisplayActivity</string>
+    <string name="Loading">Loading . . .</string>
+    
+</resources>
