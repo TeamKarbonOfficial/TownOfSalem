@@ -9,6 +9,11 @@
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
+                name="ic_launcher"
+                path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\drawable-ldpi\ic_launcher.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
                 name="background"
                 path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\drawable-mdpi\background.jpg"
                 qualifiers="mdpi-v4"
@@ -110,9 +115,9 @@
                 </color>
                 <color name="Red" >#FF0000
                 </color>
-                <color name="Purple" >#E238EC
-                </color>
                 <color name="Blue" >#00FFFF
+                </color>
+                <color name="Purple" >#E238EC
                 </color>
             </file>
             <file
@@ -382,6 +387,28 @@
             <file
                 path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\values\NE_details.xml"
                 qualifiers="" >
+                <string name="Jester" >
+<![CDATA[<b>Abilities:</b> Trick the Town into voting against you.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>If you are lynched, you may kill one of your guilty voters the following night.
+<br><b>-</b>This goes through any night immunity, however a transporter can swap your target with somebody else and get them killed instead.
+<br>
+<br><b>Goal:</b> Get yourself lynched by any means necessary.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target enjoys tricking people. They must be a Disguiser or Jester.
+<br><u><i>Consigliere</i></u> - Your target wants to be lynched. They must be a Jester.
+<br>
+<br><b>Win Conditions:</b>
+<br>Win with Town
+<br>Win with Serial Killers
+<br>Win with Arsonists
+<br>Win with Mafia
+<br>Win with Witchs
+<br>Win with Survivors]]>
+                </string>
                 <string name="Executioner" >
 <![CDATA[<b>Abilities:</b> Trick the Town into lynching your target.
 <br>
@@ -412,28 +439,6 @@
 <br>Win with Witchs
 <br>Win with Survivors
 <br>Wins even if target is revived by Retributionist]]>
-                </string>
-                <string name="Jester" >
-<![CDATA[<b>Abilities:</b> Trick the Town into voting against you.
-<br>
-<br><b>Attributes:</b>
-<br><b>-</b>If you are lynched, you may kill one of your guilty voters the following night.
-<br><b>-</b>This goes through any night immunity, however a transporter can swap your target with somebody else and get them killed instead.
-<br>
-<br><b>Goal:</b> Get yourself lynched by any means necessary.
-<br>
-<br><b>Investigation Results:</b>
-<br><u><i>Sheriff</i></u> - Not Suspicious
-<br><u><i>Investigator</i></u> - Your target enjoys tricking people. They must be a Disguiser or Jester.
-<br><u><i>Consigliere</i></u> - Your target wants to be lynched. They must be a Jester.
-<br>
-<br><b>Win Conditions:</b>
-<br>Win with Town
-<br>Win with Serial Killers
-<br>Win with Arsonists
-<br>Win with Mafia
-<br>Win with Witchs
-<br>Win with Survivors]]>
                 </string>
                 <string name="Witch" >
 <![CDATA[<b>Abilities:</b> Control someone each night.
@@ -554,9 +559,9 @@
                 </string>
                 <string name="KickStarter_info" >Support Town of Salem KickStater!
                 </string>
-                <string name="app_name" >ToS Wiki
-                </string>
                 <string name="title_activity_cosmetic" >CosmeticActivity
+                </string>
+                <string name="app_name" >ToS Wiki
                 </string>
                 <string name="Button_Role" >All Roles!
                 </string>
@@ -804,30 +809,6 @@ true
             <file
                 path="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\src\main\res\values\TP_details.xml"
                 qualifiers="" >
-                <string name="Bodyguard" >
-<![CDATA[<b>Attributes:</b> 
-<br><b>-</b>If your target is attacked both you and your attacker will die instead. (You can be healed by a Doctor)
-<br><b>-</b>Your counterattack ignores night immunity.
-<br><b>-</b>You have 1 bullet proof vest like survivor, and can not die with it on.
-<br>
-<br><b>Goal:</b> Lynch every criminal and evildoer.
-<br>
-<br><b>Special Attributes:</b> Ignores Night Immunity.
-<br>
-<br><b>Note:</b> Killable roles include Godfather, Mafioso, Serial Killer, Arsonist and Vigilante.
-<br>
-<br><b>Investigation Results:</b>
-<br><u><i>Sheriff</i></u> - Not Suspicious
-<br><u><i>Investigator</i></u> - Your target is a protector. They must be a Bodyguard, Jailor, or a Lookout.
-<br><u><i>Consigliere</i></u> - Your target is a trained protector, they must be a BodyGuard.
-<br>
-<br><b>Win Conditions:</b>
-<br>Must kill all Mafia
-<br>Must kill Serial Killer
-<br>Must kill Arsonist
-<br>Wins with Survivors
-<br>Wins with Town]]>
-                </string>
                 <string name="Doctor" >
 <![CDATA[<b>Abilities:</b> Heal one person each night, preventing them from dying.
 <br>
@@ -846,6 +827,30 @@ true
 <br><u><i>Sheriff</i></u> - Not Suspicious
 <br><u><i>Investigator</i></u> - Your target is good with knives. They are either a Doctor or a Serial Killer
 <br><u><i>Consigliere</i></u> - Your target is a professional surgeon, they must be a Doctor.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Wins with Survivors
+<br>Wins with Town]]>
+                </string>
+                <string name="Bodyguard" >
+<![CDATA[<b>Attributes:</b> 
+<br><b>-</b>If your target is attacked both you and your attacker will die instead. (You can be healed by a Doctor)
+<br><b>-</b>Your counterattack ignores night immunity.
+<br><b>-</b>You have 1 bullet proof vest like survivor, and can not die with it on.
+<br>
+<br><b>Goal:</b> Lynch every criminal and evildoer.
+<br>
+<br><b>Special Attributes:</b> Ignores Night Immunity.
+<br>
+<br><b>Note:</b> Killable roles include Godfather, Mafioso, Serial Killer, Arsonist and Vigilante.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target is a protector. They must be a Bodyguard, Jailor, or a Lookout.
+<br><u><i>Consigliere</i></u> - Your target is a trained protector, they must be a BodyGuard.
 <br>
 <br><b>Win Conditions:</b>
 <br>Must kill all Mafia
