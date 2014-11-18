@@ -27,16 +27,6 @@
         android:text="@string/Button_Role" />
 
     <Button
-        android:id="@+id/ButtonCosmetic"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/ButtonRole"
-        android:layout_alignRight="@+id/ButtonNeutral"
-        android:layout_below="@+id/ButtonInno"
-        android:layout_marginTop="24dp"
-        android:text="@string/Cosmetic_info" />
-
-    <Button
         android:id="@+id/ButtonNeutral"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -45,14 +35,14 @@
         android:text="@string/Neutral_info" />
 
     <Button
-        android:id="@+id/ButtonKickStarter"
+        android:id="@+id/ButtonAchievements"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/ButtonCosmetic"
-        android:layout_alignRight="@+id/ButtonCosmetic"
-        android:layout_below="@+id/ButtonCosmetic"
         android:layout_marginTop="18dp"
-        android:text="@string/KickStarter_info" />
+        android:text="@string/Achievements_info"
+        android:layout_alignLeft="@+id/ButtonRole"
+        android:layout_alignRight="@+id/ButtonNeutral"
+        android:layout_below="@+id/ButtonInno" />
 
     <Button
         android:id="@+id/ButtonMafia"

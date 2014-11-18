@@ -11,7 +11,7 @@
     <string name="Mafia_info">Mafia</string>
     <string name="Neutral_info">Neutral</string>
     <string name="Cosmetic_info">Cosmetic</string>
-    <string name="KickStarter_info">Support Town of Salem KickStater!</string>
+    <string name="Achievements_info">Achievements</string>
     <string name="title_activity_inno">InnoActivity</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_mafia">MafiaActivity</string>
@@ -19,5 +19,6 @@
     <string name="title_activity_cosmetic">CosmeticActivity</string>
     <string name="title_activity_display">DisplayActivity</string>
     <string name="Loading">Loading . . .</string>
-    
+    <string name="title_activity_achievements">AchievementsActivity</string>
+
 </resources>
