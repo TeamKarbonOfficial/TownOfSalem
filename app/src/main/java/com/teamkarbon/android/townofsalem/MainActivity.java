@@ -10,7 +10,15 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.Toast;
 
+//import AdBuddiz SDK
+import com.purplebrain.adbuddiz.sdk.AdBuddiz;
+import com.purplebrain.adbuddiz.sdk.AdBuddizDelegate;
+import com.purplebrain.adbuddiz.sdk.AdBuddizError;
+import com.purplebrain.adbuddiz.sdk.AdBuddizLogLevel;
+
 public class MainActivity extends Activity {
+
+    private final String AD_KEY = "b016508d-a14e-4e27-9ca6-eef6bfa5d5f1";
 
 	Button ButtonRole;
 	Button ButtonInno;
@@ -22,6 +30,10 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+
+        AdBuddiz.setPublisherKey(AD_KEY);
+        AdBuddiz.cacheAds(this);
+        AdBuddiz.showAd(this);
 		
 		//Initialize
 		ButtonRole = (Button) findViewById(R.id.ButtonRole);
