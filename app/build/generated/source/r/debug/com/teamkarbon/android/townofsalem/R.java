@@ -822,8 +822,7 @@ containing a value of this type.
         public static final int logo=0x7f020059;
     }
     public static final class id {
-        public static final int ButtonAchievements=0x7f070046;
-        public static final int ButtonInno=0x7f070047;
+        public static final int ButtonInno=0x7f070046;
         public static final int ButtonMafia=0x7f070045;
         public static final int ButtonNeutral=0x7f070044;
         public static final int ButtonRole=0x7f070043;
@@ -839,7 +838,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f070015;
         public static final int action_menu_presenter=0x7f070016;
         public static final int action_mode_close_button=0x7f070024;
-        public static final int action_settings=0x7f070048;
+        public static final int action_settings=0x7f070047;
         public static final int activity_chooser_view_content=0x7f070025;
         public static final int always=0x7f07000f;
         public static final int beginning=0x7f07000a;

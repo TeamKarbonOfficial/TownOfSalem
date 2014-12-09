@@ -11,6 +11,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.purplebrain.adbuddiz.sdk.AdBuddiz;
+
 public class InnoActivity extends Activity implements OnItemClickListener {
 	
 	// Declare
@@ -42,6 +44,9 @@ public class InnoActivity extends Activity implements OnItemClickListener {
 
 	@Override
 	public void onItemClick(AdapterView<?> arg0, View view, int arg2, long arg3) {
+        if (Extras.randomads())
+            AdBuddiz.showAd(this);
+
 		//Getting Text
 		TextView temp = (TextView) view;
 

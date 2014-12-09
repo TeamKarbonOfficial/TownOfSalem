@@ -12,9 +12,6 @@ import android.widget.Toast;
 
 //import AdBuddiz SDK
 import com.purplebrain.adbuddiz.sdk.AdBuddiz;
-import com.purplebrain.adbuddiz.sdk.AdBuddizDelegate;
-import com.purplebrain.adbuddiz.sdk.AdBuddizError;
-import com.purplebrain.adbuddiz.sdk.AdBuddizLogLevel;
 
 public class MainActivity extends Activity {
 
@@ -33,27 +30,28 @@ public class MainActivity extends Activity {
 
         AdBuddiz.setPublisherKey(AD_KEY);
         AdBuddiz.cacheAds(this);
-        AdBuddiz.showAd(this);
 		
 		//Initialize
 		ButtonRole = (Button) findViewById(R.id.ButtonRole);
 		ButtonInno = (Button) findViewById(R.id.ButtonInno);
 		ButtonMafia = (Button) findViewById(R.id.ButtonMafia);
 		ButtonNeutral = (Button) findViewById(R.id.ButtonNeutral);
-		ButtonAchievements = (Button) findViewById(R.id.ButtonAchievements);
+		//ButtonAchievements = (Button) findViewById(R.id.ButtonAchievements);
 		
 		//Intent
 		Intent RoleIntent = new Intent(this, ListActivity.class);
 		Intent InnoIntent = new Intent(this, InnoActivity.class);
 		Intent MafiaIntent = new Intent(this, MafiaActivity.class);
 		Intent NeutralIntent = new Intent(this, NeutralActivity.class);
-		Intent AchievementsIntent = new Intent(this, AchievementsActivity.class);
+		//Intent AchievementsIntent = new Intent(this, AchievementsActivity.class);
 		
 		addListenerOnButtonRole(RoleIntent);
 		addListenerOnButtonInno(InnoIntent);
 		addListenerOnButtonMafia(MafiaIntent);
 		addListenerOnButtonNeutral(NeutralIntent);
-        addListenerOnButtonAchievements(AchievementsIntent);
+        //addListenerOnButtonAchievements(AchievementsIntent);
+
+        AdBuddiz.showAd(this);
 	}
 
     @Override

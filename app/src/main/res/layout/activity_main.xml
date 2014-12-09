@@ -35,16 +35,6 @@
         android:text="@string/Neutral_info" />
 
     <Button
-        android:id="@+id/ButtonAchievements"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
-        android:text="@string/Achievements_info"
-        android:layout_alignLeft="@+id/ButtonRole"
-        android:layout_alignRight="@+id/ButtonNeutral"
-        android:layout_below="@+id/ButtonInno" />
-
-    <Button
         android:id="@+id/ButtonMafia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
