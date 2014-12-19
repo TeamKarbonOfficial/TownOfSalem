@@ -12,18 +12,18 @@ import android.widget.TextView;
 public class DisplayActivity extends Activity {
 	
 	// Declare
-	final String UNKNOWN = "Unkowned";
-	final String ERROR = "Oh No! That's Embarrassing, it seems an error have occurred. If the error persist, please email support@teamkarbon.com with the revalent steps you did to achieve this error. Thank you!\n\nTeamKarbon";
-	final String TOWN_PROTECTIVE = "Town Protective";
-	final String TOWN_SUPPORT = "Town Support";
-	final String TOWN_INVESTIGATIVE = "Town Investigative";
-	final String TOWN_KILLING = "Town Killing";
-	final String MAFIA_SUPPORT = "Mafia Support";
-	final String MAFIA_DECEPTION = "Mafia Deception";
-	final String MAFIA_KILLING = "Mafia Killing";
-	final String NEUTRAL_BENIGN = "Neutral Benign";
-	final String NEUTRAL_EVIL = "Neutral Evil";
-	final String NEUTRAL_KILLING = "Neutral Killing";
+	final private String UNKNOWN = "Unkowned";
+	final private String ERROR = "Oh No! That's Embarrassing, it seems an error have occurred. If the error persist, please email support@teamkarbon.com with the revalent steps you did to achieve this error. Thank you!\n\nTeamKarbon";
+	final private String TOWN_PROTECTIVE = "Town Protective";
+	final private String TOWN_SUPPORT = "Town Support";
+	final private String TOWN_INVESTIGATIVE = "Town Investigative";
+	final private String TOWN_KILLING = "Town Killing";
+	final private String MAFIA_SUPPORT = "Mafia Support";
+	final private String MAFIA_DECEPTION = "Mafia Deception";
+	final private String MAFIA_KILLING = "Mafia Killing";
+	final private String NEUTRAL_BENIGN = "Neutral Benign";
+	final private String NEUTRAL_EVIL = "Neutral Evil";
+	final private String NEUTRAL_KILLING = "Neutral Killing";
 
 	
 	//Innocent
@@ -53,13 +53,13 @@ public class DisplayActivity extends Activity {
 	
 	//Neutral
 	String[] NeutralRole = { "Amnesiac", "Survivor", "Witch", "Jester",
-			"Executioner", "Arsonist", "Serial Killer" };
+			"Executioner", "Arsonist", "Serial Killer", "Werewolf" };
 	
 	String[] NeutralBenign = { "Amnesiac", "Survivor" };
 	
 	String[] NeutralEvil = { "Witch", "Jester", "Executioner" };
 	
-	String[] NeutralKilling = { "Arsonist", "Serial Killer" };
+	String[] NeutralKilling = { "Arsonist", "Serial Killer", "Werewolf" };
 
 	TextView textViewRole;
 	TextView textViewAlign;
@@ -227,7 +227,9 @@ public class DisplayActivity extends Activity {
 					textViewDetails.setText(Html.fromHtml(getResources().getString(R.string.Arsonist)));
 				} else if (Role.equals("Serial Killer")) {
 					textViewDetails.setText(Html.fromHtml(getResources().getString(R.string.Serial_Killer)));
-				} else {
+				} else if (Role.equals("Werewolf")) {
+                    textViewDetails.setText(Html.fromHtml(getResources().getString(R.string.Werewolf)));
+                } else {
 					textViewDetails.setText(UNKNOWN);
 				}
 			} else {

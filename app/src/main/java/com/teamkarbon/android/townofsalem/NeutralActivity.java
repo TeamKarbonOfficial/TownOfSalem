@@ -19,7 +19,7 @@ public class NeutralActivity extends Activity implements OnItemClickListener {
 	ListView RoleListView;
 
 	String[] NeutralRole = { "Amnesiac", "Survivor", "Witch", "Jester",
-			"Executioner", "Arsonist", "Serial Killer" };
+			"Executioner", "Arsonist", "Serial Killer", "Werewolf" };
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

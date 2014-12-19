@@ -26,7 +26,7 @@
 <br>Must kill Serial Killers
 <br>Win with Arsonists
 <br>Must kill Mafia
-<br>Win with Witchs
+<br>Win with Witches
 <br>Win with Survivors]]></string>
 
     <string name="Serial_Killer"><![CDATA[<b>Abilities:</b> Kill someone each night.
@@ -52,6 +52,37 @@
 <br>Win with Serial Killers
 <br>Must kill Arsonists
 <br>Must kill Mafia
-<br>Win with Witchs
+<br>Win with Witches
+<br>Win with Survivors]]></string>
+
+        <string name="Werewolf"><![CDATA[<b>Abilities:</b> Pillage a victim\'s home and anyone who visits them every Full Moon.
+<br>
+<br><b>Attributes:</b> If you are role blocked you will attack the role blocker instead of your target. This includes the Escort, Consort, and Jailor.
+<br>
+<br><b>Goal:</b> Kill everyone who would oppose you.
+<br>
+<br><b>Special Attributes:</b> Unique Role. Night Immunity when transformed. Ignores Night Immunity.
+<br>
+<br><b>Note(s):</b>
+<br><b>-</b>Every Full Moon, you will transform into a Beast. You can choose to target a player\'s home, killing the occupant and anyone who visits, or you can choose to stay at home and kill anyone who visits your house.
+<br><b>-</b>On a Full Moon, the Investigator will see you as a Werewolf.
+<br><b>-</b>On a Full Moon, the Lookout will see you as \"beast\" if they choose to watch the house you pillage.
+<br><b>-</b>Your pillage ignores Night Immunity.
+<br><b>-</b>When jailed on a Full Moon, you will attack the Jailor if he chooses to not execute you.
+<br><b>-</b>Both the Doctor and the Bodyguard can protect your target (or any of their visitors) from death. Only the Doctor\'s or Bodyguard\'s direct target will be saved.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> -
+<br>Not Suspicious (on a regular night)
+<br>Your target is a Werewolf (on a Full Moon)
+<br><u><i>Investigator</i></u> - Your target is a loner. They must be a Werewolf, Witch, or Survivor.
+<br><u><i>Consigliere</i></u> - Your target howls at the moon. They must be a Werewolf.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Must kill Serial Killers
+<br>Must kill Arsonists
+<br>Must kill Mafia
+<br>Win with Witches
 <br>Win with Survivors]]></string>
 </resources>

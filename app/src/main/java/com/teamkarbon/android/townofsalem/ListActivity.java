@@ -24,7 +24,7 @@ public class ListActivity extends Activity implements OnItemClickListener {
 			"Vigilante", "Blackmailer", "Consigliere", "Consort", "Disguiser",
 			"Framer", "Janitor", "Godfather", "Mafioso", "Amnesiac",
 			"Survivor", "Witch", "Jester", "Executioner", "Arsonist",
-			"Serial Killer" };
+			"Serial Killer", "Werewolf" };
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
