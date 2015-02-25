@@ -4,6 +4,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Handler;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -16,6 +18,11 @@ import com.purplebrain.adbuddiz.sdk.AdBuddiz;
 public class MainActivity extends Activity {
 
     private final String AD_KEY = "b016508d-a14e-4e27-9ca6-eef6bfa5d5f1";
+    private final String ERROR = "ERROR";
+    private int adcounter = 0;
+    private int adcountermax = 20;
+
+    Handler adhandler;
 
 	Button ButtonRole;
 	Button ButtonInno;
@@ -32,6 +39,7 @@ public class MainActivity extends Activity {
         AdBuddiz.cacheAds(this);
 		
 		//Initialize
+        adhandler = new Handler();
 		ButtonRole = (Button) findViewById(R.id.ButtonRole);
 		ButtonInno = (Button) findViewById(R.id.ButtonInno);
 		ButtonMafia = (Button) findViewById(R.id.ButtonMafia);
@@ -51,7 +59,20 @@ public class MainActivity extends Activity {
 		addListenerOnButtonNeutral(NeutralIntent);
         //addListenerOnButtonAchievements(AchievementsIntent);
 
-        AdBuddiz.showAd(this);
+        //Try to display ads
+        if(AdBuddiz.isReadyToShowAd(this)) {
+            AdBuddiz.showAd(this);
+        } else {
+            //In case of slow internet speed, the application will try to display the ad for <adcountermax> times.
+            while(adcounter < adcountermax) {
+                if(AdBuddiz.isReadyToShowAd(this)) {
+                    AdBuddiz.showAd(this);
+                    adcounter = adcountermax + 1;
+                }
+                adcounter++;
+            }
+        }
+
 	}
 
     @Override

@@ -2,39 +2,39 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jar="D:\Development\Android\TownOfSalem\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="8694693636ab36910c8100ce527c258ff3ebece0">
-        <dex dex="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\build\intermediates\pre-dexed\debug\classes-ab355852f383e2d53c5bcf237c55ddf739d62b83.jar" />
+        <dex dex="D:\Development\Android\TownOfSalem\app\build\intermediates\pre-dexed\debug\classes-b01572597a3986cb8c59311fb04ff15ba8b83c97.jar" />
     </item>
     <item
-        jar="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
-        <dex dex="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-c72ff7cdebb832103e043128537461c1fadd9069.jar" />
-    </item>
-    <item
-        jar="C:\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jar="C:\Users\Joe Kawai\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
-        <dex dex="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-2663de36c8687b466020fecbde53218953ba49f2.jar" />
+        <dex dex="D:\Development\Android\TownOfSalem\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-1dee5d27ab0caa74f38f6918d9e92b84f6d3a724.jar" />
     </item>
     <item
-        jar="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\libs\AdBuddiz-2.3.4.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="959edcdbb8cbf4a7dd0e36bcb1a08c13a9d67ca8">
-        <dex dex="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\build\intermediates\pre-dexed\debug\AdBuddiz-2.3.4-660c102a7ec9788a8f4b8551b190fb1046d34be9.jar" />
-    </item>
-    <item
-        jar="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\classes.jar"
+        jar="D:\Development\Android\TownOfSalem\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\classes.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
-        <dex dex="C:\Users\Joe\Desktop\Development\Android\TownOfSalem\app\build\intermediates\pre-dexed\debug\classes-0b5ff89b7eef5fe97e2860e95a498b0bc9a559c0.jar" />
+        <dex dex="D:\Development\Android\TownOfSalem\app\build\intermediates\pre-dexed\debug\classes-8d7e1d48e6886250b51a309f898af58a9fafcd38.jar" />
+    </item>
+    <item
+        jar="D:\Development\Android\TownOfSalem\libs\AdBuddiz-2.3.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="959edcdbb8cbf4a7dd0e36bcb1a08c13a9d67ca8">
+        <dex dex="D:\Development\Android\TownOfSalem\app\build\intermediates\pre-dexed\debug\AdBuddiz-2.3.4-8103c326f45fd357255565a6424f5f8a71902085.jar" />
+    </item>
+    <item
+        jar="D:\Development\Android\TownOfSalem\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="D:\Development\Android\TownOfSalem\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-100f28774188a4cd939cb4fee10cd22763af9736.jar" />
     </item>
 
 </items>
