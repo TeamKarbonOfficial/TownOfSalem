@@ -29,23 +29,17 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.teamkarbon.android.townofsalem" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f99fca9d-3e1f-4076-93c9-d0e28c03fcba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/2_AdBuddiz_2_3_4.xml" />
-      <change type="DELETED" beforePath="D:\Development\Android\TownOfSalem\.idea\libraries\AdBuddiz_2_3_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Development\Android\TownOfSalem\.idea\libraries\appcompat_v7_20_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Development\Android\TownOfSalem\.idea\libraries\support_annotations_20_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Development\Android\TownOfSalem\.idea\libraries\support_v4_20_0_0.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/model_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/teamkarbon/android/townofsalem/BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/teamkarbon/android/townofsalem/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/test/debug/com/teamkarbon/android/townofsalem/test/BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/test/debug/com/teamkarbon/android/townofsalem/test/BuildConfig.java" />
+    <list default="true" id="f99fca9d-3e1f-4076-93c9-d0e28c03fcba" name="Default" comment="Added Search Activity (AND IT WORKS :D)&#10;Replaced &quot;...&quot; with its unicode &quot;&amp;#8230;&quot;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/SearchActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_search.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/ListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/ListActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TownOfSalem.iml" afterPath="$PROJECT_DIR$/TownOfSalem.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/teamkarbon/android/townofsalem/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/teamkarbon/android/townofsalem/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TownOfSalem.iws" />
@@ -69,12 +63,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InnoActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/InnoActivity.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="901">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1887">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.7777777" vertical-offset="0" max-vertical-offset="1190">
+              <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.68" vertical-offset="124" max-vertical-offset="561">
+              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/SearchActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1476" max-vertical-offset="1938">
+              <caret line="108" column="1" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,50 +111,21 @@
       <file leaf-file-name="ListActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/ListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="935">
-              <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DisplayActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/DisplayActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="4369">
-              <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MafiaActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/MafiaActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="850">
-              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.9471366" vertical-offset="600" max-vertical-offset="2074">
-              <caret line="127" column="5" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
+              <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
               <folding>
-                <element signature="e#2755#2867#0" expanded="true" />
-                <element signature="e#2862#2863#0" expanded="true" />
-                <element signature="e#2971#3083#0" expanded="true" />
-                <element signature="e#3078#3079#0" expanded="true" />
-                <element signature="e#3190#3303#0" expanded="true" />
-                <element signature="e#3298#3299#0" expanded="true" />
-                <element signature="e#3416#3531#0" expanded="true" />
-                <element signature="e#3526#3527#0" expanded="true" />
-                <element signature="e#3668#3833#0" expanded="true" />
-                <element signature="e#3822#3823#0" expanded="true" />
+                <element signature="e#1210#1218#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.43636364" vertical-offset="5" max-vertical-offset="1377">
+              <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -830,12 +830,10 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/values/TK_details.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/TS_details.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_achievements.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/AchievementsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_list.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/Ads.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/MafiaActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/Extras.java" />
@@ -846,12 +844,16 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/MK_details.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/MD_details.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/NeutralActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/ListActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/NK_details.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/DisplayActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/ListActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/SearchActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -869,12 +871,81 @@
             <id />
           </State>
           <State>
+            <id>Abstraction issues</id>
+          </State>
+          <State>
             <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Class metrics</id>
+          </State>
+          <State>
+            <id>Control FlowGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issues</id>
+          </State>
+          <State>
+            <id>Dependency issues</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>J2ME issues</id>
+          </State>
+          <State>
+            <id>Java language level issues</id>
+          </State>
+          <State>
+            <id>Java language level migration aids</id>
+          </State>
+          <State>
+            <id>Logging issues</id>
+          </State>
+          <State>
+            <id>Method MetricsGroovy</id>
+          </State>
+          <State>
+            <id>Method metrics</id>
+          </State>
+          <State>
+            <id>Modularization issues</id>
+          </State>
+          <State>
+            <id>Naming conventions</id>
+          </State>
+          <State>
+            <id>Numeric issues</id>
+          </State>
+          <State>
+            <id>Packaging issues</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Security issues</id>
+          </State>
+          <State>
+            <id>Threading issues</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Visibility issues</id>
           </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>AndroidLintGradleCompatiblePlugin</id>
+            <id>Abstraction issues</id>
           </State>
         </selected-state>
       </profile-state>
@@ -906,10 +977,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -926,20 +993,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TownOfSalem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TownOfSalem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TownOfSalem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1097,6 +1150,10 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1106,7 +1163,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -1119,7 +1176,7 @@
     <property name="ExportApk.Flavors" value="" />
     <property name="ExportApk.BuildType" value="release" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
   </component>
   <component name="RecentsManager">
@@ -1133,7 +1190,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Application.Both">
+  <component name="RunManager" selected="Android Application.Device">
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -1333,6 +1390,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -1366,7 +1428,11 @@
       <created>1418970833629</created>
       <updated>1418970833629</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated some code for ads">
+      <created>1424877660071</created>
+      <updated>1424877660071</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1395,21 +1461,23 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27260083" sideWeight="0.6233933" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27260083" sideWeight="0.6233933" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.41323906" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28094575" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962447" sideWeight="0.5083548" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31849793" sideWeight="0.5083548" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2506427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.49164525" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1422,8 +1490,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1416" height="676" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1447,7 +1513,9 @@
     <MESSAGE value="Added ads, with randomly pobability of showing up" />
     <MESSAGE value="Added Werewolf&#10;Added Ads&#10;Corrected Typos (Witches)" />
     <MESSAGE value="Changed Version to 1.1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Version to 1.1.0" />
+    <MESSAGE value="Updated some code for ads" />
+    <MESSAGE value="Added Search Activity (AND IT WORKS :D)&#10;Replaced &quot;...&quot; with its unicode &quot;&amp;#8230;&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Search Activity (AND IT WORKS :D)&#10;Replaced &quot;...&quot; with its unicode &quot;&amp;#8230;&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1455,30 +1523,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/DisplayActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="4369">
-          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/MafiaActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1071">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/NeutralActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1054">
-          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1105">
@@ -1633,13 +1677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="510">
-          <caret line="14" column="49" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_achievements.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -1696,19 +1733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2890">
           <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6666665" vertical-offset="425" max-vertical-offset="1003">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-          <folding>
-            <element signature="e#1395#1417#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1804,6 +1828,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2246696" vertical-offset="0" max-vertical-offset="454">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/InnoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1088">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/MafiaActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51321584" vertical-offset="175" max-vertical-offset="850">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/DisplayActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="4250">
+          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_neutral.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/NeutralActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="867">
@@ -1812,73 +1875,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/ListActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="935">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+        <state vertical-scroll-proportion="-10.68" vertical-offset="124" max-vertical-offset="561">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/DisplayActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="4250">
-          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/MafiaActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
-          <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2246696" vertical-offset="0" max-vertical-offset="454">
-          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/InnoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1088">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        <state vertical-scroll-proportion="-3.7777777" vertical-offset="0" max-vertical-offset="1190">
+          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.9471366" vertical-offset="600" max-vertical-offset="2074">
-          <caret line="127" column="5" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1887">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/SearchActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1476" max-vertical-offset="1938">
+          <caret line="108" column="1" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
           <folding>
-            <element signature="e#2755#2867#0" expanded="true" />
-            <element signature="e#2862#2863#0" expanded="true" />
-            <element signature="e#2971#3083#0" expanded="true" />
-            <element signature="e#3078#3079#0" expanded="true" />
-            <element signature="e#3190#3303#0" expanded="true" />
-            <element signature="e#3298#3299#0" expanded="true" />
-            <element signature="e#3416#3531#0" expanded="true" />
-            <element signature="e#3526#3527#0" expanded="true" />
-            <element signature="e#3668#3833#0" expanded="true" />
-            <element signature="e#3822#3823#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.89885056" vertical-offset="0" max-vertical-offset="697">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamkarbon/android/townofsalem/ListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+          <folding>
+            <element signature="e#1210#1218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43636364" vertical-offset="5" max-vertical-offset="1377">
+          <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Android API 19 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

@@ -51,4 +51,15 @@
         android:layout_alignLeft="@+id/ButtonRole"
         android:text="@string/Inno_info" />
 
+    <Button
+        android:id="@+id/ButtonSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Button_Search"
+        android:layout_below="@+id/ButtonNeutral"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
 </RelativeLayout>

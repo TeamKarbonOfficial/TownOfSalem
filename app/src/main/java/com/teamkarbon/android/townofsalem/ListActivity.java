@@ -18,6 +18,7 @@ public class ListActivity extends Activity implements OnItemClickListener {
 	// Declare
 	ListView RoleListView;
 
+    //Roles
 	String[] AllRole = { "Bodyguard", "Doctor", "Escort",
 			"Investigator", "Jailor", "Lookout", "Mayor", "Medium",
 			"Retributionist", "Sheriff", "Spy", "Transporter", "Veteran",
