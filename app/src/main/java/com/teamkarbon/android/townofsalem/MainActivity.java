@@ -63,7 +63,7 @@ public class MainActivity extends Activity {
         addListenerOnButtonSearch(SearchIntent);
         //addListenerOnButtonAchievements(AchievementsIntent);
 
-        //Try to display ads
+        //FIXME: Try to display ads
         if(AdBuddiz.isReadyToShowAd(this)) {
             AdBuddiz.showAd(this);
         } else {
@@ -140,5 +140,13 @@ public class MainActivity extends Activity {
                 startActivity(AchievementsIntent);
             }
         });
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        //Call ads
+        AdBuddiz.showAd(this);
     }
 }
