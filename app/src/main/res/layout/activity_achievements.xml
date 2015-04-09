@@ -8,7 +8,7 @@
     tools:context="com.teamkarbon.android.townofsalem.AchievementsActivity">
 
     <ListView
-        android:id="@+id/RoleListView"
+        android:id="@+id/AchievementsListView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

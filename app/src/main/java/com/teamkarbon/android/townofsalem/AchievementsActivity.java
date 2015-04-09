@@ -30,7 +30,7 @@ public class AchievementsActivity extends Activity implements OnItemClickListene
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_achievements);
 
-        AchievementsListView = (ListView) findViewById(R.id.RoleListView);
+        AchievementsListView = (ListView) findViewById(R.id.AchievementsListView);
         ArrayAdapter<String> Adapter = new ArrayAdapter<String> (this, android.R.layout.simple_list_item_1, Achievements);
         AchievementsListView.setAdapter(Adapter);
 
@@ -51,8 +51,8 @@ public class AchievementsActivity extends Activity implements OnItemClickListene
         TextView temp = (TextView) view;
 
         //Intent
-        Intent DisplayIntent = new Intent(this, DisplayActivity.class);
-        DisplayIntent.putExtra("Role", temp.getText());
-        startActivity(DisplayIntent);
+        Intent AchievementsDisplayIntent = new Intent(this, AchievementsDisplayActivity.class);
+        AchievementsDisplayIntent.putExtra("Achievement", temp.getText());
+        startActivity(AchievementsDisplayIntent);
     }
 }

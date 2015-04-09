@@ -46,7 +46,7 @@ public class MainActivity extends Activity {
 		ButtonMafia = (Button) findViewById(R.id.ButtonMafia);
 		ButtonNeutral = (Button) findViewById(R.id.ButtonNeutral);
         ButtonSearch = (Button) findViewById(R.id.ButtonSearch);
-		//ButtonAchievements = (Button) findViewById(R.id.ButtonAchievements);
+		ButtonAchievements = (Button) findViewById(R.id.ButtonAchievements);
 		
 		//Intent
 		Intent RoleIntent = new Intent(this, ListActivity.class);
@@ -54,14 +54,14 @@ public class MainActivity extends Activity {
 		Intent MafiaIntent = new Intent(this, MafiaActivity.class);
 		Intent NeutralIntent = new Intent(this, NeutralActivity.class);
         Intent SearchIntent = new Intent(this, SearchActivity.class);
-		//Intent AchievementsIntent = new Intent(this, AchievementsActivity.class);
+		Intent AchievementsIntent = new Intent(this, AchievementsActivity.class);
 		
 		addListenerOnButtonRole(RoleIntent);
 		addListenerOnButtonInno(InnoIntent);
 		addListenerOnButtonMafia(MafiaIntent);
 		addListenerOnButtonNeutral(NeutralIntent);
         addListenerOnButtonSearch(SearchIntent);
-        //addListenerOnButtonAchievements(AchievementsIntent);
+        addListenerOnButtonAchievements(AchievementsIntent);
 
         //FIXME: Try to display ads
         if(AdBuddiz.isReadyToShowAd(this)) {
