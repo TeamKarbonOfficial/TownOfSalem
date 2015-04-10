@@ -9,6 +9,70 @@ import android.widget.ImageView;
 
 public class AchievementsDisplayActivity extends Activity {
 
+    String[] General = {"Initiation", "Novice", "Apprentice", "Dedicated", "Patriarch", "Zealous", "Iconic", "Marathon", "Close Call", "Fifty-Fifty", "Town of Salem Expert"};
+
+    String[] All Town = {""};
+
+    String[] Bodyguard = {""};
+
+    String[] Doctor = {""};
+
+    String[] Escort = {""};
+
+    String[] Investigator = {""};
+
+    String[] Jailor = {""};
+
+    String[] Lookout = {""};
+
+    String[] Mayor = {""};
+
+    String[] Medium = {""};
+
+    String[] Retributionist = {""};
+
+    String[] Sheriff = {""};
+
+    String[] Spy = {""};
+
+    String[] Transporter = {""};
+
+    String[] Veteran = {""};
+
+    String[] Vigilante = {""};
+
+    String[] All Mafia = {""};
+
+    String[] Blackmailer = {""};
+
+    String[] Consigliere = {""};
+
+    String[] Consort = {""};
+
+    String[] Disguiser = {""};
+
+    String[] Framer = {""};
+
+    String[] Janitor = {""};
+
+    String[] Godfather = {""};
+
+    String[] Mafioso = {""};
+
+    String[] All Neutrals = {""};
+
+    String[] Amnesiac = {""};
+
+    String[] Survivor = {""};
+
+    String[] Witch = {""};
+
+    String[] Jester = {""};
+
+    String[] Executioner = {""};
+
+    String[] Arsonist = {""};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +82,9 @@ public class AchievementsDisplayActivity extends Activity {
         String Achievement = DisplayIntent.getExtras().getString("Achievement");
 
         ImageView ImageAchievement = (ImageView) findViewById(R.id.ImageAchievement);
+
+        //TODO: http://www.androidinterview.com/android-custom-listview-with-checkbox-example/
+        // http://town-of-salem.wikia.com/wiki/Achievements
 
         if (Achievement.equals("All Town")) {
             ImageAchievement.setImageResource(R.drawable.achievement_general);
