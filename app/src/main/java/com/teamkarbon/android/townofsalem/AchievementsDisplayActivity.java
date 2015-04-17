@@ -11,7 +11,7 @@ public class AchievementsDisplayActivity extends Activity {
 
     String[] General = {"Initiation", "Novice", "Apprentice", "Dedicated", "Patriarch", "Zealous", "Iconic", "Marathon", "Close Call", "Fifty-Fifty", "Town of Salem Expert"};
 
-    String[] All Town = {""};
+    String[] AllTown = {""};
 
     String[] Bodyguard = {""};
 
@@ -41,7 +41,7 @@ public class AchievementsDisplayActivity extends Activity {
 
     String[] Vigilante = {""};
 
-    String[] All Mafia = {""};
+    String[] AllMafia = {""};
 
     String[] Blackmailer = {""};
 
@@ -59,7 +59,7 @@ public class AchievementsDisplayActivity extends Activity {
 
     String[] Mafioso = {""};
 
-    String[] All Neutrals = {""};
+    String[] AllNeutrals = {""};
 
     String[] Amnesiac = {""};
 
