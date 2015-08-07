@@ -24,6 +24,17 @@ public class Extras {
         return showads;
     }
 
+    protected static boolean randomads(int min, int max) {
+        number = randomInt(min, max);
+
+        if (number == 1)
+            showads = true;
+        else
+            showads = false;
+
+        return showads;
+    }
+
     protected static int randomInt(int min, int max) {
         Random rand = new Random();
         int randomNum = rand.nextInt((max - min) + 1) + min;

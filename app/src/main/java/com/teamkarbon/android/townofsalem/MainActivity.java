@@ -63,19 +63,9 @@ public class MainActivity extends Activity {
         addListenerOnButtonSearch(SearchIntent);
         addListenerOnButtonAchievements(AchievementsIntent);
 
-        //FIXME: Try to display ads
-        if(AdBuddiz.isReadyToShowAd(this)) {
+        //Show ads on start
+        if (Extras.randomads(1,10))
             AdBuddiz.showAd(this);
-        } else {
-            //In case of slow internet speed, the application will try to display the ad for <adcountermax> times.
-            while(adcounter < adcountermax) {
-                if(AdBuddiz.isReadyToShowAd(this)) {
-                    AdBuddiz.showAd(this);
-                    adcounter = adcountermax + 1;
-                }
-                adcounter++;
-            }
-        }
 
 	}
 
