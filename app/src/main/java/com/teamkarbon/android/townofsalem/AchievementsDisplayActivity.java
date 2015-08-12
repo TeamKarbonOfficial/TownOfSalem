@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
+import android.widget.ListView;
 
 public class AchievementsDisplayActivity extends Activity {
 
@@ -73,6 +74,9 @@ public class AchievementsDisplayActivity extends Activity {
 
     String[] Arsonist = {""};
 
+    ListView lv;
+    Model[] Model;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -81,13 +85,26 @@ public class AchievementsDisplayActivity extends Activity {
         Intent DisplayIntent = getIntent();
         String Achievement = DisplayIntent.getExtras().getString("Achievement");
 
+        lv = (ListView) findViewById(R.id.listView);
+
+        Model = new Model[1];
+        Model[0] = new Model("ERROR!", 0);
+
         ImageView ImageAchievement = (ImageView) findViewById(R.id.ImageAchievement);
 
         //TODO: http://www.androidinterview.com/android-custom-listview-with-checkbox-example/
+        //TODO: http://techlovejump.com/android-listview-with-checkbox/
+        //TODO: Make shared preferences to save achievements completed
         // http://town-of-salem.wikia.com/wiki/Achievements
 
         if (Achievement.equals("All Town")) {
             ImageAchievement.setImageResource(R.drawable.achievement_general);
+            Model = new Model[5];
+            Model[0] = new Model("Option 1", 0);
+            Model[1] = new Model("Option 2", 0);
+            Model[2] = new Model("Option 3", 0);
+            Model[3] = new Model("Option 4", 0);
+            Model[4] = new Model("Option 5", 0);
 
         } else if (Achievement.equals("Bodyguard")) {
             ImageAchievement.setImageResource(R.drawable.achievement_bodyguard);
@@ -182,7 +199,14 @@ public class AchievementsDisplayActivity extends Activity {
         } else if (Achievement.equals("Serial Killer")) {
             ImageAchievement.setImageResource(R.drawable.achievement_serialkiller);
 
+        } else {
+            Model = new Model[1];
+            Model[0] = new Model("ERROR!", 0);
         }
+
+        //Set items
+        CustomAdapter adapter = new CustomAdapter(this, Model);
+        lv.setAdapter(adapter);
     }
 
 

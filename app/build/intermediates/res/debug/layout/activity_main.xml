@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity"
+    android:clickable="false">
 
     <ImageView
         android:id="@+id/imageView1"
@@ -27,32 +28,12 @@
         android:text="@string/Button_Role" />
 
     <Button
-        android:id="@+id/ButtonCosmetic"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/ButtonRole"
-        android:layout_alignRight="@+id/ButtonNeutral"
-        android:layout_below="@+id/ButtonInno"
-        android:layout_marginTop="24dp"
-        android:text="@string/Cosmetic_info" />
-
-    <Button
         android:id="@+id/ButtonNeutral"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignRight="@+id/ButtonRole"
         android:layout_alignTop="@+id/ButtonMafia"
         android:text="@string/Neutral_info" />
-
-    <Button
-        android:id="@+id/ButtonKickStarter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/ButtonCosmetic"
-        android:layout_alignRight="@+id/ButtonCosmetic"
-        android:layout_below="@+id/ButtonCosmetic"
-        android:layout_marginTop="18dp"
-        android:text="@string/KickStarter_info" />
 
     <Button
         android:id="@+id/ButtonMafia"
@@ -71,4 +52,26 @@
         android:layout_alignLeft="@+id/ButtonRole"
         android:text="@string/Inno_info" />
 
-</RelativeLayout><!-- From: file:/C:/Users/Joe/Desktop/Development/Android/TownOfSalem/app/src/main/res/layout/activity_main.xml -->
+    <Button
+        android:id="@+id/ButtonSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Button_Search"
+        android:layout_below="@+id/ButtonNeutral"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Button_Achievements"
+        android:id="@+id/ButtonAchievements"
+        android:layout_below="@+id/ButtonSearch"
+        android:layout_alignRight="@+id/ButtonSearch"
+        android:layout_alignEnd="@+id/ButtonSearch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout><!-- From: file:/Users/joekawai/Documents/Projects/Android/TownOfSalem/app/src/main/res/layout/activity_main.xml -->
