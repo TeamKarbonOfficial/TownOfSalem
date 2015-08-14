@@ -6,14 +6,21 @@ package com.teamkarbon.android.townofsalem;
 public class Model {
 
     String name;
+    String des;
     int value; /* 0 -&gt; checkbox disable, 1 -&gt; checkbox enable */
 
-    Model(String name, int value){
+    Model(String name, String des , int value){
         this.name = name;
+        this.des = des;
         this.value = value;
     }
+
     public String getName(){
         return this.name;
+    }
+
+    public String getDes(){
+        return this.des;
     }
     public int getValue(){
         return this.value;

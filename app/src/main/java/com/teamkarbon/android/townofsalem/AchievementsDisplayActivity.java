@@ -88,7 +88,7 @@ public class AchievementsDisplayActivity extends Activity {
         lv = (ListView) findViewById(R.id.listView);
 
         Model = new Model[1];
-        Model[0] = new Model("ERROR!", 0);
+        Model[0] = new Model("ERROR!", "", 0);
 
         ImageView ImageAchievement = (ImageView) findViewById(R.id.ImageAchievement);
 
@@ -100,11 +100,11 @@ public class AchievementsDisplayActivity extends Activity {
         if (Achievement.equals("All Town")) {
             ImageAchievement.setImageResource(R.drawable.achievement_general);
             Model = new Model[5];
-            Model[0] = new Model("Option 1", 0);
-            Model[1] = new Model("Option 2", 0);
-            Model[2] = new Model("Option 3", 0);
-            Model[3] = new Model("Option 4", 0);
-            Model[4] = new Model("Option 5", 0);
+            Model[0] = new Model("Option 1", "sss", 0);
+            Model[1] = new Model("Option 2", "", 0);
+            Model[2] = new Model("Option 3", "", 0);
+            Model[3] = new Model("Option 4", "", 0);
+            Model[4] = new Model("Option 5", "", 0);
 
         } else if (Achievement.equals("Bodyguard")) {
             ImageAchievement.setImageResource(R.drawable.achievement_bodyguard);
@@ -201,7 +201,7 @@ public class AchievementsDisplayActivity extends Activity {
 
         } else {
             Model = new Model[1];
-            Model[0] = new Model("ERROR!", 0);
+            Model[0] = new Model("ERROR!", "", 0);
         }
 
         //Set items

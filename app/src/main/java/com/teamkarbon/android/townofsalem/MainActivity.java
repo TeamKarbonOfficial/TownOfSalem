@@ -64,9 +64,7 @@ public class MainActivity extends Activity {
         addListenerOnButtonAchievements(AchievementsIntent);
 
         //Show ads on start
-        if (Extras.randomads(1,10))
             AdBuddiz.showAd(this);
-
 	}
 
 
@@ -136,7 +134,8 @@ public class MainActivity extends Activity {
     public void onResume() {
         super.onResume();
 
-        //Call ads
-        AdBuddiz.showAd(this);
+        if (Extras.randomads(1,10)) {
+            AdBuddiz.showAd(this);
+        }
     }
 }

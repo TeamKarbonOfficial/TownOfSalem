@@ -16,6 +16,17 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/Loading" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Loading"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/Grey" />
+
         <CheckBox
             android:id="@+id/checkBox"
             android:layout_width="wrap_content"
@@ -24,7 +35,8 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
-            android:textSize="35sp" />
+            android:textSize="50sp" />
+
     </RelativeLayout>
 
 </LinearLayout>
