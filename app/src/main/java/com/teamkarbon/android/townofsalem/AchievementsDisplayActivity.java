@@ -10,70 +10,6 @@ import android.widget.ListView;
 
 public class AchievementsDisplayActivity extends Activity {
 
-    String[] General = {"Initiation", "Novice", "Apprentice", "Dedicated", "Patriarch", "Zealous", "Iconic", "Marathon", "Close Call", "Fifty-Fifty", "Town of Salem Expert"};
-
-    String[] AllTown = {""};
-
-    String[] Bodyguard = {""};
-
-    String[] Doctor = {""};
-
-    String[] Escort = {""};
-
-    String[] Investigator = {""};
-
-    String[] Jailor = {""};
-
-    String[] Lookout = {""};
-
-    String[] Mayor = {""};
-
-    String[] Medium = {""};
-
-    String[] Retributionist = {""};
-
-    String[] Sheriff = {""};
-
-    String[] Spy = {""};
-
-    String[] Transporter = {""};
-
-    String[] Veteran = {""};
-
-    String[] Vigilante = {""};
-
-    String[] AllMafia = {""};
-
-    String[] Blackmailer = {""};
-
-    String[] Consigliere = {""};
-
-    String[] Consort = {""};
-
-    String[] Disguiser = {""};
-
-    String[] Framer = {""};
-
-    String[] Janitor = {""};
-
-    String[] Godfather = {""};
-
-    String[] Mafioso = {""};
-
-    String[] AllNeutrals = {""};
-
-    String[] Amnesiac = {""};
-
-    String[] Survivor = {""};
-
-    String[] Witch = {""};
-
-    String[] Jester = {""};
-
-    String[] Executioner = {""};
-
-    String[] Arsonist = {""};
-
     ListView lv;
     Model[] Model;
 
@@ -97,7 +33,22 @@ public class AchievementsDisplayActivity extends Activity {
         //TODO: Make shared preferences to save achievements completed
         // http://town-of-salem.wikia.com/wiki/Achievements
 
-        if (Achievement.equals("All Town")) {
+        if (Achievement.equals("General")) {
+            ImageAchievement.setImageResource(R.drawable.achievement_general);
+            Model = new Model[11];
+            Model[0] = new Model("Initiation", "Win your first game of Town of Salem", 0);
+            Model[1] = new Model("Novice", "Win 5 games of Town of Salem", 0);
+            Model[2] = new Model("Apprentice", "Win 10 games of Town of Salem", 0);
+            Model[3] = new Model("Dedicated", "Win 25 games of Town of Salem", 0);
+            Model[4] = new Model("Patriarch", "Win 50 games of Town of Salem", 0);
+            Model[5] = new Model("Zealous", "Win 100 games of Town of Salem", 0);
+            Model[6] = new Model("Iconic", "Win 250 games of Town of Salem", 0);
+            Model[7] = new Model("Marathon", "Have a game last 10 days", 0);
+            Model[8] = new Model("Close Call", "Be acquitted by a tie vote", 0);
+            Model[9] = new Model("Fifty-Fifty", "Win with half of the roles", 0);
+            Model[10] = new Model("Town of Salem Expert", "Win with every role", 0);
+
+        } else if (Achievement.equals("All Town")) {
             ImageAchievement.setImageResource(R.drawable.achievement_general);
             Model = new Model[5];
             Model[0] = new Model("Option 1", "sss", 0);
