@@ -21,7 +21,7 @@ public class MafiaActivity extends Activity implements OnItemClickListener {
 	ListView RoleListView;
 
 	String[] MafiaRole = { "Blackmailer", "Consigliere", "Consort", "Disguiser",
-			"Framer", "Janitor", "Godfather", "Mafioso" };
+			"Forger", "Framer", "Janitor", "Godfather", "Mafioso" };
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

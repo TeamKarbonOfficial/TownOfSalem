@@ -4,5 +4,8 @@
     <color name="Green">#4CC417</color>
  	<color name="Red">#FF0000</color>
  	<color name="Blue">#00FFFF</color>
-    <color name="Grey">#484848</color>
+    <color name="Grey">#202020</color>
+    <color name="dark_blue">#000033</color>
+    <color name="blue_green">#00FFA6</color>
+    <color name="Yellow">#F3FF00</color>
 </resources>

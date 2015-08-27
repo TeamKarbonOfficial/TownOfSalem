@@ -64,13 +64,24 @@
         android:layout_alignParentEnd="true" />
 
     <Button
+        android:id="@+id/ButtonUpcoming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Button_Upcoming"
+        android:layout_below="@+id/ButtonSearch"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Button_Achievements"
         android:id="@+id/ButtonAchievements"
-        android:layout_below="@+id/ButtonSearch"
-        android:layout_alignRight="@+id/ButtonSearch"
-        android:layout_alignEnd="@+id/ButtonSearch"
+        android:layout_below="@+id/ButtonUpcoming"
+        android:layout_alignRight="@+id/ButtonUpcoming"
+        android:layout_alignEnd="@+id/ButtonUpcoming"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 

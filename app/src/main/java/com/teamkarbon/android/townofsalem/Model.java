@@ -7,12 +7,14 @@ public class Model {
 
     String name;
     String des;
-    int value; /* 0 -&gt; checkbox disable, 1 -&gt; checkbox enable */
+    String tp;
+    //int value; /* 0 -&gt; checkbox disable, 1 -&gt; checkbox enable */
 
-    Model(String name, String des , int value){
+    Model(String name, String des, String tp){
         this.name = name;
         this.des = des;
-        this.value = value;
+        this.tp = tp;
+        //this.value = value;
     }
 
     public String getName(){
@@ -22,7 +24,12 @@ public class Model {
     public String getDes(){
         return this.des;
     }
-    public int getValue(){
-        return this.value;
+
+    public String getTp(){
+        return this.tp;
     }
+
+    //public int getValue(){
+    //    return this.value;
+    //}
 }

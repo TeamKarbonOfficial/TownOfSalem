@@ -21,7 +21,7 @@ public class AchievementsActivity extends Activity implements OnItemClickListene
             "Investigator", "Jailor", "Lookout", "Mayor", "Medium",
             "Retributionist", "Sheriff", "Spy", "Transporter", "Veteran",
             "Vigilante","All Mafia" , "Blackmailer", "Consigliere", "Consort", "Disguiser",
-            "Framer", "Janitor", "Godfather", "Mafioso","All Neutrals" , "Amnesiac",
+            "Forger", "Framer", "Janitor", "Godfather", "Mafioso","All Neutrals" , "Amnesiac",
             "Survivor", "Witch", "Jester", "Executioner", "Arsonist",
             "Serial Killer" };
 

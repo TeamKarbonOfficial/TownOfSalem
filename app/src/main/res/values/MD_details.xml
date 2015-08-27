@@ -20,6 +20,39 @@
 <br>Must kill Town
 <br>Must kill Serial Killers
 <br>Must kill Arsonists
+<br>Must kill Werewolves
+<br>Win with Mafia
+<br>Win with Witches
+<br>Win with Survivors]]></string>
+
+        <string name="Forger"><![CDATA[<b>Ability:</b> Choose a person and rewrite their last will at night.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>If your target dies their last will is replaced with your forgery.
+<br><b>-</b>You may only perform 3 forgeries.
+<br><b>-</b>If there are no kill capable Mafia roles left you will become Mafioso
+<br><b>-</b>You can talk with the other Mafia at night.
+<br>
+<br><b>Goal:</b> Kill anyone who will not submit to the Mafia.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Your target is a member of the Mafia.
+<br><u><i>Investigator</i></u> - Your target is good with documents. They could be a Framer or a Forger.
+<br><u><i>Consigliere</i></u> - N/A
+<br>
+<br><b>Note(s):</b>
+<br><b>-</b>Your target\'s will is only altered if your target dies.
+<br><b>-</b>You will waste a forgery if your target does not die.
+<br><b>-</b>You will keep your forgery if you are roleblocked.
+<br><b>-</b>Your forgery will succeed even if someone other than the Mafia kills your target.
+<br><b>-</b>A Spy or a Lookout can witness your visits.
+<br><b>-</b>A Witch can control you to forge someone else\'s last will, even a Mafia\'s or your own.
+<br>
+<br><b>Win Conditions:</b>
+<br>Must kill Town
+<br>Must kill Serial Killers
+<br>Must kill Arsonists
+<br>Must kill Werewolves
 <br>Win with Mafia
 <br>Win with Witches
 <br>Win with Survivors]]></string>
@@ -36,13 +69,14 @@
 <br>
 <br><b>Investigation Results:</b>
 <br><u><i>Sheriff</i></u> - Your target is a member of the Mafia.
-<br><u><i>Investigator</i></u> - Your target is good with documents. They must be a Framer
+<br><u><i>Investigator</i></u> - Your target is good with documents. They could be a Framer or a Forger.
 <br><u><i>Consigliere</i></u> - N/A
 <br>
 <br><b>Win Conditions:</b>
 <br>Must kill Town
 <br>Must kill Serial Killers
 <br>Must kill Arsonists
+<br>Must kill Werewolves
 <br>Win with Mafia
 <br>Win with Witches
 <br>Win with Survivors]]></string>
@@ -67,6 +101,7 @@
 <br>Must kill Town
 <br>Must kill Serial Killers
 <br>Must kill Arsonists
+<br>Must kill Werewolves
 <br>Win with Mafia
 <br>Win with Witches
 <br>Win with Survivors]]></string>

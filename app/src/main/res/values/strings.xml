@@ -5,6 +5,7 @@
     <string name="action_settings">Settings</string>
     <string name="Button_Role">All Roles!</string>
     <string name="Button_Search">Quick Search</string>
+    <string name="Button_Upcoming">Upcoming Roles!</string>
     <string name="Button_Achievements">Achievements</string>
     <string name="title_activity_list">ListActivity</string>
     <string name="Roles">Roles</string>
@@ -12,6 +13,8 @@
     <string name="Inno_info">Town</string>
     <string name="Mafia_info">Mafia</string>
     <string name="Neutral_info">Neutral</string>
+    <string name="Upcoming_info">Upcoming Roles</string>
+    <string name="Achievement_info">Achievements</string>
     <string name="Cosmetic_info">Cosmetic</string>
     <string name="Achievements_info">Achievements</string>
     <string name="title_activity_inno">InnoActivity</string>
@@ -25,5 +28,6 @@
     <string name="title_activity_search">SearchActivity</string>
     <string name="Search_input">Search Roles&#8230;</string>
     <string name="title_activity_achievements_display">AchievementsDisplayActivity</string>
+    <string name="title_activity_up_coming">UpComingActivity</string>
 
 </resources>

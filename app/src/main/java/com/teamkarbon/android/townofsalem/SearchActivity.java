@@ -29,7 +29,7 @@ public class SearchActivity extends Activity implements AdapterView.OnItemClickL
             "Investigator", "Jailor", "Lookout", "Mayor", "Medium",
             "Retributionist", "Sheriff", "Spy", "Transporter", "Veteran",
             "Vigilante", "Blackmailer", "Consigliere", "Consort", "Disguiser",
-            "Framer", "Janitor", "Godfather", "Mafioso", "Amnesiac",
+            "Forger", "Framer", "Janitor", "Godfather", "Mafioso", "Amnesiac",
             "Survivor", "Witch", "Jester", "Executioner", "Arsonist",
             "Serial Killer", "Werewolf" };
 

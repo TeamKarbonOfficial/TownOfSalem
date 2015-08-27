@@ -29,6 +29,7 @@ public class MainActivity extends Activity {
 	Button ButtonMafia;
 	Button ButtonNeutral;
     Button ButtonSearch;
+	Button ButtonUpcoming;
 	Button ButtonAchievements;
 	
 	@Override
@@ -46,6 +47,7 @@ public class MainActivity extends Activity {
 		ButtonMafia = (Button) findViewById(R.id.ButtonMafia);
 		ButtonNeutral = (Button) findViewById(R.id.ButtonNeutral);
         ButtonSearch = (Button) findViewById(R.id.ButtonSearch);
+		ButtonUpcoming = (Button) findViewById(R.id.ButtonUpcoming);
 		ButtonAchievements = (Button) findViewById(R.id.ButtonAchievements);
 		
 		//Intent
@@ -54,6 +56,7 @@ public class MainActivity extends Activity {
 		Intent MafiaIntent = new Intent(this, MafiaActivity.class);
 		Intent NeutralIntent = new Intent(this, NeutralActivity.class);
         Intent SearchIntent = new Intent(this, SearchActivity.class);
+		Intent UpcomingIntent = new Intent(this, UpComingActivity.class);
 		Intent AchievementsIntent = new Intent(this, AchievementsActivity.class);
 		
 		addListenerOnButtonRole(RoleIntent);
@@ -61,7 +64,8 @@ public class MainActivity extends Activity {
 		addListenerOnButtonMafia(MafiaIntent);
 		addListenerOnButtonNeutral(NeutralIntent);
         addListenerOnButtonSearch(SearchIntent);
-        addListenerOnButtonAchievements(AchievementsIntent);
+		addListenerOnButtonUpcoming(UpcomingIntent);
+		addListenerOnButtonAchievements(AchievementsIntent);
 
         //Show ads on start
             AdBuddiz.showAd(this);
@@ -120,6 +124,15 @@ public class MainActivity extends Activity {
             }
         });
     }
+
+	private void addListenerOnButtonUpcoming(final Intent UpcomingIntent) {
+		ButtonUpcoming.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				startActivity(UpcomingIntent);
+			}
+		});
+	}
 
     private void addListenerOnButtonAchievements(final Intent AchievementsIntent) {
         ButtonAchievements.setOnClickListener(new OnClickListener() {

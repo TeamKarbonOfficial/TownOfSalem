@@ -12,7 +12,7 @@ import android.widget.TextView;
 public class DisplayActivity extends Activity {
 	
 	// Declare
-	final private String UNKNOWN = "Unkowned";
+	final private String UNKNOWN = "Unknown";
 	final private String ERROR = "Oh No! That's Embarrassing, it seems an error have occurred. If the error persist, please email support@teamkarbon.com with the revalent steps you did to achieve this error. Thank you!\n\nTeamKarbon";
 	final private String TOWN_PROTECTIVE = "Town Protective";
 	final private String TOWN_SUPPORT = "Town Support";
@@ -30,7 +30,7 @@ public class DisplayActivity extends Activity {
 	String[] InnoRole = { "Bodyguard", "Doctor", "Escort",
 			"Investigator", "Jailor", "Lookout", "Mayor", "Medium",
 			"Retributionist", "Sheriff", "Spy", "Transporter", "Veteran",
-			"Vigilante" };
+			"Vigilante", "Vampire Hunter" };
 	
 	String[] InnoRoleProtective = { "Bodyguard", "Doctor"};
 	
@@ -39,25 +39,25 @@ public class DisplayActivity extends Activity {
 	
 	String[] InnoRoleInvestigative = {"Investigator", "Lookout", "Sheriff", "Spy"};
 	
-	String[] InnoRoleKilling = { "Veteran", "Vigilante", "Jailor" };
+	String[] InnoRoleKilling = { "Veteran", "Vigilante", "Jailor", "Vampire Hunter" };
 	
 	//Mafia
 	String[] MafiaRole = { "Blackmailer", "Consigliere", "Consort", "Disguiser",
-			"Framer", "Janitor", "Godfather", "Mafioso" };
+			"Forger", "Framer", "Janitor", "Godfather", "Mafioso" };
 	
 	String[] MafiaSupport = { "Blackmailer", "Consigliere", "Consort"};
 	
-	String[] MafiaDeception = { "Disguiser", "Framer", "Janitor"};
+	String[] MafiaDeception = { "Disguiser", "Forger", "Framer", "Janitor"};
 	
 	String[] MafiaKilling = { "Godfather", "Mafioso" };
 	
 	//Neutral
 	String[] NeutralRole = { "Amnesiac", "Survivor", "Witch", "Jester",
-			"Executioner", "Arsonist", "Serial Killer", "Werewolf" };
+			"Executioner", "Arsonist", "Serial Killer", "Werewolf", "Vampire" };
 	
 	String[] NeutralBenign = { "Amnesiac", "Survivor" };
 	
-	String[] NeutralEvil = { "Witch", "Jester", "Executioner" };
+	String[] NeutralEvil = { "Witch", "Jester", "Executioner", "Vampire" };
 	
 	String[] NeutralKilling = { "Arsonist", "Serial Killer", "Werewolf" };
 
@@ -73,9 +73,9 @@ public class DisplayActivity extends Activity {
 		Intent DisplayIntent = getIntent();
 		String Role = DisplayIntent.getExtras().getString("Role");
 		
-		TextView textViewRole = (TextView) findViewById(R.id.textViewRole);
-		TextView textViewAlign = (TextView) findViewById(R.id.textViewAlign);
-		TextView textViewDetails = (TextView) findViewById(R.id.textViewDetails);
+		textViewRole = (TextView) findViewById(R.id.textViewRole);
+		textViewAlign = (TextView) findViewById(R.id.textViewAlign);
+		textViewDetails = (TextView) findViewById(R.id.textViewDetails);
 		textViewRole.setText(Html.fromHtml("<b>" + Role + "</b>"));
 
 		if (Arrays.asList(InnoRole).contains(Role)) {
@@ -135,6 +135,8 @@ public class DisplayActivity extends Activity {
 					textViewDetails.setText(Html.fromHtml(getResources().getString(R.string.Veteran)));
 				} else if (Role.equals("Vigilante")) {
 					textViewDetails.setText(Html.fromHtml(getResources().getString(R.string.Vigilante)));
+				} else if (Role.equals("Vampire Hunter")) {
+					textViewDetails.setText(Html.fromHtml(getResources().getString(R.string.Vampire_Hunter)));
 				} else {
 					textViewDetails.setText(UNKNOWN);
 				}
@@ -167,6 +169,9 @@ public class DisplayActivity extends Activity {
 				//textViewDetails
 				if (Role.equals("Disguiser")) {
 					textViewDetails.setText(Html.fromHtml(getResources().getString(R.string.Disguiser)));
+				} else if (Role.equals("Forger")) {
+					//TODO: Change this!
+					textViewDetails.setText(Html.fromHtml(getResources().getString(R.string.Forger)));
 				} else if (Role.equals("Framer")) {
 					textViewDetails.setText(Html.fromHtml(getResources().getString(R.string.Framer)));
 				} else if (Role.equals("Janitor")) {
@@ -216,6 +221,8 @@ public class DisplayActivity extends Activity {
 					textViewDetails.setText(Html.fromHtml(getResources().getString(R.string.Executioner)));
 				} else if (Role.equals("Jester")) {
 					textViewDetails.setText(Html.fromHtml(getResources().getString(R.string.Jester)));
+				} else if (Role.equals("Vampire")) {
+					textViewDetails.setText(Html.fromHtml(getResources().getString(R.string.Vampire)));
 				} else {
 					textViewDetails.setText(UNKNOWN);
 				}

@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.teamkarbon.android.townofsalem"
-    android:versionCode="4"
-    android:versionName="1.2.0" >
+    android:versionCode="5"
+    android:versionName="1.3.0" >
 
     <uses-sdk
         android:minSdkVersion="11"
-        android:targetSdkVersion="19"
-        android:maxSdkVersion="18"/>
+        android:targetSdkVersion="19" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -73,7 +76,13 @@
         </activity>
         <activity
             android:name=".AchievementsDisplayActivity"
-            android:label="@string/title_activity_achievements_display" >
+            android:label="@string/title_activity_achievements_display"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".UpComingActivity"
+            android:label="@string/title_activity_up_coming"
+            android:screenOrientation="portrait" >
         </activity>
     </application>
 
