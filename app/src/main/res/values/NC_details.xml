@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Vampire"><![CDATA[<b>Abilities:</b> Convert others to Vampires at night.
+<br>
+<br><b>Attributes:</b>
+<br><b>-</b>Vampires vote at night to bite a target.
+<br><b>-</b>The youngest vampire will visit the target at night.
+<br><b>-</b>You must wait 1 night between conversions.
+<br>
+<br><b>Goal:</b> Convert everyone who would oppose you.
+<br>
+<br><b>Investigation Results:</b>
+<br><u><i>Sheriff</i></u> - Not Suspicious
+<br><u><i>Investigator</i></u> - Your target is covered in blood. They must be a Doctor, Serial Killer, or Vampire.
+<br><u><i>Consigliere</i></u> - Your target drinks blood. They must be a Vampire!
+<br>
+<br><b>Win Conditions:</b>
+<br>Win with other Vampires
+<br>Win with Witches
+<br>Win with Survivors
+<br>Must kill the Town
+<br>Must kill the Mafia
+<br>Must kill Serial Killers
+<br>Must kill Arsonists
+<br>Must kill Werewolves]]></string>
+</resources>

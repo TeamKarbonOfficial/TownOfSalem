@@ -90,20 +90,32 @@
 <br>Wins with Survivors
 <br>Wins with Town]]></string>
 
-    <string name="Vampire_Hunter"><![CDATA[<b>Status:</b> <font color="green">CONFIRMED</font>
+    <string name="Vampire_Hunter"><![CDATA[<b>Abilities:</b> Check for Vampires each night.
 <br>
-<br><b>Abilities:</b> TBA
+<br><b>Attributes:</b>
+<br><b>-</b>If you find a Vampire you will stake them in the heart.
+<br><b>-</b>If a Vampire visits you they will be staked.
+<br><b>-</b>You can hear the Vampires talk at night.
+<br><b>-</b>If you kill all Vampires you will become a Vigilante.
 <br>
-<br><b>Attributes:</b> TBA
+<br><b>Goal:</b> Lynch every criminal and evildoer.
 <br>
-<br><b>Goal:</b> TBA
+<br><b>Note(s):</b>
+<br><b>-</b>If there is a Vampire Hunter, there will always be at least one Vampire at the start of the game.
+<br><b>-</b>If a vampire visits you at night you will not be turned into a Vampire, but instead you will kill them.
+<br><b>-</b>Once all Vampires are dead you will become a Vigilante, but you will only have 1 bullet instead of 3.
 <br>
 <br><b>Investigation Results:</b>
 <br><u><i>Sheriff</i></u> - Not Suspicious
-<br><u><i>Investigator</i></u> - TBA
-<br><u><i>Consigliere</i></u> - TBA
+<br><u><i>Investigator</i></u> - You target takes charge. They could be a Mayor, Godfather, or Vampire Hunter
+<br><u><i>Consigliere</i></u> - Your target tracks Vampires. They must be a Vampire Hunter.
 <br>
 <br><b>Win Conditions:</b>
-<br>TBA]]></string>
+<br>Must kill all Mafia
+<br>Must kill Serial Killer
+<br>Must kill Arsonist
+<br>Win kill Werewolves
+<br>Wins with Survivors
+<br>Wins with Town]]></string>
 
 </resources>

@@ -19,12 +19,12 @@ public class AchievementsActivity extends Activity implements OnItemClickListene
 
     String[] Achievements = { "General" ,"All Town" ,"Bodyguard", "Doctor", "Escort",
             "Investigator", "Jailor", "Lookout", "Mayor", "Medium",
-            "Retributionist", "Sheriff", "Spy", "Transporter", "Veteran",
+            "Retributionist", "Sheriff", "Spy", "Transporter", "Vampire Hunter", "Veteran",
             "Vigilante","All Mafia" , "Blackmailer", "Consigliere", "Consort", "Disguiser",
-            "Forger", "Framer", "Janitor", "Godfather", "Mafioso","All Neutrals" , "Amnesiac",
-            "Survivor", "Witch", "Jester", "Executioner", "Arsonist",
-            "Serial Killer" };
-
+            "Forger", "Framer", "Janitor", "Godfather", "Mafioso", "All Neutrals" , "Amnesiac",
+            "Arsonist", "Executioner", "Jester", "Serial Killer", "Survivor", "Vampire",
+            "Werewolf", "Witch"};
+ 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

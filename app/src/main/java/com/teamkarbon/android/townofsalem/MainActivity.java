@@ -68,7 +68,7 @@ public class MainActivity extends Activity {
 		addListenerOnButtonAchievements(AchievementsIntent);
 
         //Show ads on start
-            AdBuddiz.showAd(this);
+		AdBuddiz.showAd(this);
 	}
 
 

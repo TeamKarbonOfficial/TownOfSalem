@@ -22,10 +22,10 @@ public class ListActivity extends Activity implements OnItemClickListener {
 	String[] AllRole = { "Bodyguard", "Doctor", "Escort",
 			"Investigator", "Jailor", "Lookout", "Mayor", "Medium",
 			"Retributionist", "Sheriff", "Spy", "Transporter", "Veteran",
-			"Vigilante", "Blackmailer", "Consigliere", "Consort", "Disguiser",
+			"Vigilante", "Vampire Hunter", "Blackmailer", "Consigliere", "Consort", "Disguiser",
 			"Forger", "Framer", "Janitor", "Godfather", "Mafioso", "Amnesiac",
 			"Survivor", "Witch", "Jester", "Executioner", "Arsonist",
-			"Serial Killer", "Werewolf" };
+			"Serial Killer", "Werewolf", "Vampire" };
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

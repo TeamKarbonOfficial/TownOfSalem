@@ -17,7 +17,7 @@ public class UpComingActivity extends Activity implements AdapterView.OnItemClic
     // Declare
     ListView AchievementsListView;
 
-    String[] Upcoming = { "Vampire Hunter" ,"Vampire" };
+    String[] Upcoming = { };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

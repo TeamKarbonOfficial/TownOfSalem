@@ -21,7 +21,7 @@ public class InnoActivity extends Activity implements OnItemClickListener {
 	String[] InnoRole = { "Bodyguard", "Doctor", "Escort",
 			"Investigator", "Jailor", "Lookout", "Mayor", "Medium",
 			"Retributionist", "Sheriff", "Spy", "Transporter", "Veteran",
-			"Vigilante" };
+			"Vigilante", "Vampire Hunter" };
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

@@ -78,20 +78,4 @@
 <br>Win with Mafia
 <br>Win with Witches
 <br>Win with Survivors]]></string>
-
-    <string name="Vampire"><![CDATA[<b>Status:</b> <font color="green">CONFIRMED</font>
-<br>
-<br><b>Abilities:</b> TBA
-<br>
-<br><b>Attributes:</b> TBA
-<br>
-<br><b>Goal:</b> TBA
-<br>
-<br><b>Investigation Results:</b>
-<br><u><i>Sheriff</i></u> - Not Suspicious
-<br><u><i>Investigator</i></u> - TBA
-<br><u><i>Consigliere</i></u> - TBA
-<br>
-<br><b>Win Conditions:</b>
-<br>TBA]]></string>
 </resources>
