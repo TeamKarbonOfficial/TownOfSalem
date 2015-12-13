@@ -22,8 +22,11 @@ android {
 
 dependencies {
     compile 'com.purplebrain.adbuddiz.sdk:AdBuddiz-Java:3.+'
+    //noinspection GradleCompatible
     compile 'com.android.support:support-v4:20.0.0'
+    //noinspection GradleCompatible
     compile 'com.android.support:appcompat-v7:20.0.0'
+
 }
 
 repositories {

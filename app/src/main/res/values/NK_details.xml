@@ -57,21 +57,22 @@
 <br>Win with Witches
 <br>Win with Survivors]]></string>
 
-        <string name="Werewolf"><![CDATA[<b>Abilities:</b> Pillage a victim\'s home and anyone who visits them every Full Moon.
+        <string name="Werewolf"><![CDATA[<b>Abilities:</b> Transform into a Werewolf during the full moon.
 <br>
-<br><b>Attributes:</b> If you are role blocked you will attack the role blocker instead of your target. This includes the Escort, Consort, and Jailor.
+<br><b>Attributes:</b>
+<br><b>-</b>As a Werewolf you will attack your victim and anyone that visits them.
+<br><b>-</b>Your attack goes through night immunity.
 <br>
 <br><b>Goal:</b> Kill everyone who would oppose you.
 <br>
-<br><b>Special Attributes:</b> Unique Role. Night Immunity when transformed. Ignores Night Immunity.
+<br><b>Special Attributes:</b> Unique Role. Night Immunity. Ignores Night Immunity.
 <br>
 <br><b>Note(s):</b>
-<br><b>-</b>Every Full Moon, you will transform into a Beast. You can choose to target a player\'s home, killing the occupant and anyone who visits, or you can choose to stay at home and kill anyone who visits your house.
-<br><b>-</b>On a Full Moon, the Investigator will see you as a Werewolf.
-<br><b>-</b>On a Full Moon, the Lookout will see you as \"beast\" if they choose to watch the house you pillage.
-<br><b>-</b>Your pillage ignores Night Immunity.
-<br><b>-</b>When jailed on a Full Moon, you will attack the Jailor if he chooses to not execute you.
-<br><b>-</b>Both the Doctor and the Bodyguard can protect your target (or any of their visitors) from death. Only the Doctor\'s or Bodyguard\'s direct target will be saved.
+<br><b>-</b>You will transform into a Werewolf every Full Moon. This occurs every other night, starting on the second night
+<br><b>-</b>If you are jailed but not executed, you will attack the Jailor in retaliation, including everybody else who is visiting the Jailor that night.
+<br><b>-</b>If you are roleblocked by an Escort or Consort, you will stay at home and attack anyone who visits you (including the roleblocker).
+<br><b>-</b>If a Witch or Transporter forces you to visit yourself, you will not attack yourself, but stay at home, attacking anyone who visits you (including the Witch or Transporter).
+<br><b>-</b>If a Witch controls certain non-visiting role to visit your target, you will also attack them. This applies to the Medium, Retributionist, Amnesiac and Jester.
 <br>
 <br><b>Investigation Results:</b>
 <br><u><i>Sheriff</i></u> -

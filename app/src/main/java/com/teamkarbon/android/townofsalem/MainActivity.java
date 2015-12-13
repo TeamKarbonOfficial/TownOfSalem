@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-        AdBuddiz.setPublisherKey(AD_KEY);
+		AdBuddiz.setPublisherKey(AD_KEY);
         AdBuddiz.cacheAds(this);
 		
 		//Initialize
@@ -58,20 +58,18 @@ public class MainActivity extends Activity {
         Intent SearchIntent = new Intent(this, SearchActivity.class);
 		Intent UpcomingIntent = new Intent(this, UpComingActivity.class);
 		Intent AchievementsIntent = new Intent(this, AchievementsActivity.class);
-		
+
 		addListenerOnButtonRole(RoleIntent);
 		addListenerOnButtonInno(InnoIntent);
 		addListenerOnButtonMafia(MafiaIntent);
 		addListenerOnButtonNeutral(NeutralIntent);
-        addListenerOnButtonSearch(SearchIntent);
+		addListenerOnButtonSearch(SearchIntent);
 		addListenerOnButtonUpcoming(UpcomingIntent);
 		addListenerOnButtonAchievements(AchievementsIntent);
 
         //Show ads on start
 		AdBuddiz.showAd(this);
 	}
-
-
 
     @Override
 	public boolean onCreateOptionsMenu(Menu menu) {

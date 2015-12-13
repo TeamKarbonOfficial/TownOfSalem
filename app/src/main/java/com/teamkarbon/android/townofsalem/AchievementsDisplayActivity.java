@@ -195,7 +195,18 @@ public class AchievementsDisplayActivity extends Activity {
             Model[4] = new Model("Can't Touch Me!", "Transport yourself with someone else.", "5");
             Model[5] = new Model("Stop hittin' yourself", "Make someone attack themself.", "10");
 
-        } else if (Achievement.equals("Veteran")) {
+        } else if (Achievement.equals("Vampire Hunter")) {
+            ImageAchievement.setImageResource(R.drawable.achievement_vampire_hunter);
+            Model = new Model[7];
+            Model[0] = new Model("Blade", "Win 1 game as a Vampire Hunter", "5");
+            Model[1] = new Model("Abraham Lincoln", "Win 5 games as a Vampire Hunter", "5");
+            Model[2] = new Model("Van Helsing", "Win 10 games as a Vampire Hunter", "10");
+            Model[3] = new Model("Alucard", "Win 25 games as a Vampire Hunter", "25");
+            Model[4] = new Model("Stake the Damned", "Stake a Vampire", "5");
+            Model[5] = new Model("Buffy the Vampire Slayer", "Kill 3 Vampires in one game", "25");
+            Model[6] = new Model("Constantine", "Kill 2 Vampires in one night", "10");
+
+        }else if (Achievement.equals("Veteran")) {
             ImageAchievement.setImageResource(R.drawable.achievement_veteran);
             Model = new Model[7];
             Model[0] = new Model("Battle-Hardened", "Win 1 game as a Veteran", "5");
@@ -346,6 +357,28 @@ public class AchievementsDisplayActivity extends Activity {
             Model[4] = new Model("Trusting a Psycho", "Win with a Serial Killer.", "5");
             Model[5] = new Model("Not Afraid", "Win without using a bulletproof vest.", "5");
             Model[6] = new Model("Kevlar", "Have your bulletproof vest save you from death.", "5");
+
+        } else if (Achievement.equals("Vampire")) {
+            ImageAchievement.setImageResource(R.drawable.achievement_vampire);
+            Model = new Model[7];
+            Model[0] = new Model("Count Dracula", "Win 1 game as a Vampire", "5");
+            Model[1] = new Model("Bill Compton", "Win 5 games as a Vampire", "5");
+            Model[2] = new Model("Night Walker", "Win 10 games as a Vampire", "10");
+            Model[3] = new Model("Nocturnal", "Win 25 games as a Vampire", "25");
+            Model[4] = new Model("Blood Lust", "Convert someone to be a Vampire", "5");
+            Model[5] = new Model("True Blood", "Convert three vampires in one game", "10");
+            Model[6] = new Model("Great Endeavors", "Win without having any Vampires die", "25");
+
+        } else if (Achievement.equals("Werewolf")) {
+            ImageAchievement.setImageResource(R.drawable.achievement_werewolf);
+            Model = new Model[7];
+            Model[0] = new Model("Savage", "Win your first game as a Werewolf", "5");
+            Model[1] = new Model("Lycan", "Win 5 games as a Werewolf", "5");
+            Model[2] = new Model("Wild Beast", "Win 10 games as a Werewolf", "10");
+            Model[3] = new Model("Mauled", "Win 25 games as a Werewolf", "25");
+            Model[4] = new Model("Rampage", "Attack 5 people in one night", "25");
+            Model[5] = new Model("Triple Threat", "Kill a Godfather, Arsonist and Serial Killer in the same night", "25");
+            Model[6] = new Model("Jailbreak", "Kill the Jailor who jailed you", "25");
 
         } else if (Achievement.equals("Witch")) {
             ImageAchievement.setImageResource(R.drawable.achievement_witch);
