@@ -6,7 +6,7 @@ android {
         }
     }
     compileSdkVersion 19
-    buildToolsVersion "20.0.0"
+    buildToolsVersion "23.0.0"
     defaultConfig {
         applicationId "com.teamkarbon.android.townofsalem"
         minSdkVersion 11
