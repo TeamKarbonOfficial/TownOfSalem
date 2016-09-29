@@ -19,8 +19,8 @@ public class MainActivity extends Activity {
 
     private final String AD_KEY = "b016508d-a14e-4e27-9ca6-eef6bfa5d5f1";
     private final String ERROR = "ERROR";
-    private int adcounter = 0;
-    private int adcountermax = 20;
+    private final int ADCOUNTER = 1;
+    private final int ADCOUNTERMAX = 10;
 
     Handler adhandler;
 
@@ -145,7 +145,7 @@ public class MainActivity extends Activity {
     public void onResume() {
         super.onResume();
 
-        if (Extras.randomads(1,10)) {
+        if (Extras.randomads(ADCOUNTER, ADCOUNTERMAX)) {
             AdBuddiz.showAd(this);
         }
     }
