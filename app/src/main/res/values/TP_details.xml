@@ -1,28 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Bodyguard"><![CDATA[<b>Attributes:</b> 
-<br><b>-</b>If your target is attacked both you and your attacker will die instead. (You can be healed by a Doctor)
-<br><b>-</b>Your counterattack ignores night immunity.
-<br><b>-</b>You have 1 bullet proof vest like survivor, and can not die with it on.
+    <string name="Bodyguard"><![CDATA[<b>Abilities:</b> Protect one person from death at night.
+<br>
+<br><b>Attributes:</b>
+<br>- If your target is attacked both you and your attacker will die instead.
+<br>- If you successfully protect someone you can still be healed.
+<br>- Your counterattack ignores night immunity.
 <br>
 <br><b>Goal:</b> Lynch every criminal and evildoer.
 <br>
-<br><b>Special Attributes:</b> Ignores Night Immunity.
-<br>
-<br><b>Note:</b> Killable roles include Godfather, Mafioso, Serial Killer, Arsonist and Vigilante.
+<br><b>Note:</b>
+<br>- You have 1 bulletproof vest and gain night immunity the night you use it.
 <br>
 <br><b>Investigation Results:</b>
-<br><u><i>Sheriff</i></u> - Not Suspicious
-<br><u><i>Investigator</i></u> - Your target is a protector. They must be a Bodyguard, Jailor, or a Lookout.
-<br><u><i>Consigliere</i></u> - Your target is a trained protector, they must be a BodyGuard.
+<br><u><i>Sheriff</i></u>
+<br>- Your target is not suspicious.
+<br><u><i>Investigator</i></u>
+<br>- Your target is not afraid to get their hands dirty. They could be the Bodyguard, Godfather or Arsonist.
+<br><u><i>Consigliere</i></u>
+<br>- Your target is a trained protector, they must be a Bodyguard.
 <br>
 <br><b>Win Conditions:</b>
-<br>Must kill all Mafia
-<br>Must kill Serial Killer
-<br>Must kill Arsonist
-<br>Win kill Werewolves
-<br>Wins with Survivors
-<br>Wins with Town]]></string>
+<br>&nbsp;<u><i>Must kill</i></u>
+<br>- Mafia
+<br>- Vampires
+<br>- Arsonist
+<br>- Serial Killer
+<br>- Werewolf
+<br>- Witch
+<br>
+<br><u><i>Wins with</i></u>
+<br>- Town
+<br>- Survivors]]></string>
 
     <string name="Doctor"><![CDATA[<b>Abilities:</b> Heal one person each night, preventing them from dying.
 <br>
